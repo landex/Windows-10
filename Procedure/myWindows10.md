@@ -26,3 +26,5 @@ After this you can use the Fira Code in all applications compatibles included th
 
 
 ## References
+
+[Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)

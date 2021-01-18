@@ -67,9 +67,15 @@ After complete the configuration, save the ***json*** file and testing, see resu
 
 The configuration done to Visual Studio Code.
 
-### CMDER
+### Cmder
+
+For me the Linux or Unix terminal is the best of World, there is not other equals. So to solve this problem in Windows I use the **Cmder** to emulte the Linux terminal in Windows.
+
+Access the Cmder download page, and make download of full version of **Cmder** attention **FULL VERSION**!!!
 
 ### Windows Terminal
+
+### Java
 
 ### Ruby
 
@@ -79,3 +85,7 @@ The configuration done to Visual Studio Code.
 ## References
 
 [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
+
+[Visual Studio Code](https://code.visualstudio.com/)
+
+[Cmder](https://cmder.net/)

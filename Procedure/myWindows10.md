@@ -89,3 +89,5 @@ Access the Cmder download page, and make download of full version of **Cmder** a
 [Visual Studio Code](https://code.visualstudio.com/)
 
 [Cmder](https://cmder.net/)
+
+[Windows Terminal](https://www.bing.com/search?q=new+windows+terminal&cvid=b9bcadc8f7e04d62b71addb7739a5e8d&pglt=547&FORM=ANNTA1&PC=ACTS)

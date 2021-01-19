@@ -91,7 +91,7 @@ In this window select ***Environment Variables***.
 
 
 
-We will create an **System variables**, click in **NEW** and define the variable name equals ***CMDER_ROOT*** and the variable value equals ***the path of your Cmder unconpress folder***, see example below.
+We will create an **System variables**, click in **NEW** and define the variable name equals ***CMDER_ROOT*** and the variable value equals ***the path of your Cmder unconpress folder***, and click in ***OK*** see example below.
 
 
 
@@ -106,10 +106,19 @@ New Variable.
 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118%20_225409.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_225816.png" alt="drawing" width="400"/>
 
 
 
+Now we will added the other varibale, so click in ***New*** again ans in variable name type ***%ConEmuDir%*** and in variable value type ***[cmder_root]\vendor\conemu-maximus5*** and click in ***OK***
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
+
+
+
+Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
 ### Windows Terminal
 
 ### Java

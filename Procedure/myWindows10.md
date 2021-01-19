@@ -73,6 +73,43 @@ For me the Linux or Unix terminal is the best of World, there is not other equal
 
 Access the Cmder download page, and make download of full version of **Cmder** attention **FULL VERSION**!!!
 
+After completed the download, unzip the folder and move to ***C:*** to organize I created in ***C:*** a subdirectory called ***MyApps***, but fell free to custom your configuration.
+
+In search type ***system env*** access the option below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/system_env_20210118_225223.png" alt="drawing" width="400"/>
+
+
+
+In this window select ***Environment Variables***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118%20_225409.png" alt="drawing" width="400"/>
+
+
+
+We will create an **System variables**, click in **NEW** and define the variable name equals ***CMDER_ROOT*** and the variable value equals ***the path of your Cmder unconpress folder***, see example below.
+
+
+
+System Variables.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_225530.png" alt="drawing" width="400"/>
+
+
+New Variable.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118%20_225409.png" alt="drawing" width="400"/>
+
+
+
 ### Windows Terminal
 
 ### Java
@@ -89,5 +126,7 @@ Access the Cmder download page, and make download of full version of **Cmder** a
 [Visual Studio Code](https://code.visualstudio.com/)
 
 [Cmder](https://cmder.net/)
+
+[Cmder Configuration](https://kags.me.ke/post/cmder-commander-console-for-windows/#:~:text=To%20install%2C%20visit%20Cmder%20website,for%20modifying%20the%20configuration%20files.)
 
 [Windows Terminal](https://www.bing.com/search?q=new+windows+terminal&cvid=b9bcadc8f7e04d62b71addb7739a5e8d&pglt=547&FORM=ANNTA1&PC=ACTS)

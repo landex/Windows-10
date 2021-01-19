@@ -118,6 +118,20 @@ Now we will added the other varibale, so click in ***New*** again ans in variabl
 
 
 
+Now we need insert variable in ***Path***. Select ***path*** row and click in ***Edit***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
+
+
+
+In new window open, click in ***new***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
+
 Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
 ### Windows Terminal
 

@@ -158,6 +158,33 @@ Testing the configuration, open ***Run*** shotcurt win+r, and type ***cmder*** a
 
 ### Windows Terminal
 
+The best thing that happened in 2019 was the Windows Terminal launch... Awesome!!! Install Windows terminal from the MS Store.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20230930.png" alt="drawing" width="400"/>
+
+
+
+After installation you can press the shotcurt win+r and type in ***Run*** the letters **wt** andd press **OK**.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
+
+
+
+Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. But why not we can use only ***Cmder***.
+
+
+This is a ***Windows Terminal*** face
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225906.png" alt="drawing" width="400"/>
+
+
+
 ### Java
 
 ### Ruby
@@ -175,4 +202,4 @@ Testing the configuration, open ***Run*** shotcurt win+r, and type ***cmder*** a
 
 [Cmder Configuration](https://kags.me.ke/post/cmder-commander-console-for-windows/#:~:text=To%20install%2C%20visit%20Cmder%20website,for%20modifying%20the%20configuration%20files.)
 
-[Windows Terminal](https://www.bing.com/search?q=new+windows+terminal&cvid=b9bcadc8f7e04d62b71addb7739a5e8d&pglt=547&FORM=ANNTA1&PC=ACTS)
+[Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)

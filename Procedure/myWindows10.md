@@ -144,7 +144,18 @@ Add the path of ***cmder***.
 
 Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
 
-Testing the configuration, open ***Run*** shotcurt win+r.
+Testing the configuration, open ***Run*** shotcurt win+r, and type ***cmder*** and press enter, if ***cmer*** opened, well done, configuration successfull.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225726.png" alt="drawing" width="400"/>
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225906.png" alt="drawing" width="400"/>
+
+
+
 ### Windows Terminal
 
 ### Java

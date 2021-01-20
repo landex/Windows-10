@@ -174,7 +174,7 @@ After installation you can press the shotcurt win+r and type in ***Run*** the le
 
 
 
-Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. But why not we can use only ***Cmder***.
+Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. But why not we can use only ***Cmder***. Why not!!! The Windows Terminal is better! 
 
 
 This is a ***Windows Terminal*** face
@@ -184,6 +184,10 @@ This is a ***Windows Terminal*** face
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
 
 
+
+If you press ***CRTL+,*** will open a configuration file, similar of VSCode, in this file we will customize the ***Windows Terminal*** to integrate with ***Cmder*** to use ***Fira Code*** and ***Ligatures***. Is possible configure to TABS open a connection directy with other server machines.
+
+But in this moment I'll show how to customize, fonts, colors and  integrate with ***Cmder*** to you use the ***Unix*** commands in your ***Windows Terminal***.
 
 ### Java
 

@@ -143,6 +143,8 @@ Add the path of ***cmder***.
 
 
 Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
+
+Testing the configuration, open ***Run*** shotcurt win+r.
 ### Windows Terminal
 
 ### Java

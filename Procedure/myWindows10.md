@@ -122,7 +122,7 @@ Now we need insert variable in ***Path***. Select ***path*** row and click in **
 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20083750.png" alt="drawing" width="400"/>
 
 
 
@@ -130,7 +130,17 @@ In new window open, click in ***new***.
 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20084053.png" alt="drawing" width="400"/>
+
+
+
+Add the path of ***cmder***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20084155.png" alt="drawing" width="400"/>
+
+
 
 Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
 ### Windows Terminal

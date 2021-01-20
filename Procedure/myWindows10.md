@@ -170,7 +170,7 @@ After installation you can press the shotcurt win+r and type in ***Run*** the le
 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20232242.png" alt="drawing" width="400"/>
 
 
 
@@ -181,7 +181,7 @@ This is a ***Windows Terminal*** face
 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225906.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
 
 
 

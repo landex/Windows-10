@@ -260,6 +260,26 @@ The result of my configuration is.
 
 With this my configuration when selected ***Cmder*** will open in **Bash** mode, with this is possible we configure **Bash** files to customize more commands in **Terminal**.
 
+To define your profile with default, add the **guid**  of your ***Cmder*** configuration below.
+
+Before:
+
+```json
+"$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+```
+
+After:
+```json
+"defaults":
+        {
+            // Put settings here that you want to apply to all profiles.
+            "defaultProfile" : "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}"
+        },
+```
+
 ### Java
 
 ### Ruby
@@ -279,4 +299,10 @@ With this my configuration when selected ***Cmder*** will open in **Bash** mode,
 
 [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
 
+[Windows Terminal Official DOC](https://docs.microsoft.com/en-us/windows/terminal/)
+
 [Cmder in Windows Terminal](https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143)
+
+[Windows Terminal More Customization](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31)
+
+[Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)

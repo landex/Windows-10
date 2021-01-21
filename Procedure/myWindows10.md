@@ -262,23 +262,13 @@ With this my configuration when selected ***Cmder*** will open in **Bash** mode,
 
 To define your profile with default, add the **guid**  of your ***Cmder*** configuration below.
 
-Before:
-
 ```json
 "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}",
 
 ```
 
-After:
-```json
-"defaults":
-        {
-            // Put settings here that you want to apply to all profiles.
-            "defaultProfile" : "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}"
-        },
-```
 
 ### Java
 

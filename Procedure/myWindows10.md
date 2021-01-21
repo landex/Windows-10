@@ -189,6 +189,77 @@ If you press ***CRTL+,*** will open a configuration file, similar of VSCode, in 
 
 But in this moment I'll show how to customize, fonts, colors and  integrate with ***Cmder*** to you use the ***Unix*** commands in your ***Windows Terminal***.
 
+To customize your ***Windows Terminal*** type shortcurt **CTRL+,** (Control and comma). The ***settings.json*** file will be open. We will perform some configurations to customize the terminal.
+
+This is part of configuration that define the terminals that will be open.
+
+´´´json
+[
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+´´´
+
+First we need generate a new ***guid*** to insert in configuration. Open PowerShell terminal and type ***New-Guid***, the command will return a code below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
+
+
+
+We will added some configuration now, see example below. This is my configuration of customization.
+
+```json
+
+            {
+                "guid": "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}",
+                "name": "Terminator",
+                "commandline": "%CMDER_ROOT%\\vendor\\git-for-windows\\bin\\bash.exe",
+                "startingDirectory": "%USERPROFILE%",
+                "icon": "%CMDER_ROOT%\\icons\\cmder_blue.ico",
+                "fontFace": "Fira Code",
+                "hidden": false,
+                "acrylicOpacity": 0.5,
+                "closeOnExit": true,
+                "cursorColor": "#7ef33a",
+                "cursorShape": "filledBox",
+                "background": "#2e3436",
+                "fontSize": 9,
+                "padding": "0, 0, 0, 0",
+                "snapOnInput": true,
+                "useAcrylic": true
+              }
+```
+
+The result of my configuration is.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-20%20225142.png" alt="drawing" width="400"/>
+
+
+
+With this my configuration when selected ***Cmder*** will open in **Bash** mode, with this is possible we configure **Bash** files to customize more commands in **Terminal**.
+
 ### Java
 
 ### Ruby
@@ -207,3 +278,5 @@ But in this moment I'll show how to customize, fonts, colors and  integrate with
 [Cmder Configuration](https://kags.me.ke/post/cmder-commander-console-for-windows/#:~:text=To%20install%2C%20visit%20Cmder%20website,for%20modifying%20the%20configuration%20files.)
 
 [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
+
+[Cmder in Windows Terminal](https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143)

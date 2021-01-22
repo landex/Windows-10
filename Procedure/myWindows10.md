@@ -307,3 +307,5 @@ Now we go to ***Bash*** configuration.
 [Windows Terminal More Customization](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31)
 
 [Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
+
+[GNU Bash](https://www.gnu.org/software/bash/)

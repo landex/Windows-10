@@ -281,6 +281,8 @@ Now we go to ***Bash*** configuration.
 
 ### The Bash !!!
 
+**Bash** is a Unix shell and command language written by Brian Fox for the GNU Project as a free software.
+
 ### Java
 
 ### Ruby
@@ -308,4 +310,6 @@ Now we go to ***Bash*** configuration.
 
 [Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
 
-[GNU Bash](https://www.gnu.org/software/bash/)
+[GNU Bash Manual](https://www.gnu.org/software/bash/)
+
+[Bash Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))

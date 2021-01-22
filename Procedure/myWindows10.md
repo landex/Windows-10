@@ -269,6 +269,17 @@ To define your profile with default, add the **guid**  of your ***Cmder*** confi
 
 ```
 
+After this configurationb above, when is open the ***Windows Terminal*** by default will open ***Cmder*** in Bash mode, now we can configure the Bash to use native in ***Windows*** with this given more power to user.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210122_070819.png" alt="drawing" width="400"/>
+
+
+
+Now we go to ***Bash*** configuration.
+
+### The Bash !!!
 
 ### Java
 

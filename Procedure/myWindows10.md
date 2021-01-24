@@ -287,8 +287,10 @@ But before start the configuration, you will see the same details of configurati
 
 The configurations files.
 
-|File|Description|
-|----|-----------|
+| File            | Description                                                                |
+|-----------------|----------------------------------------------------------------------------|
+| /etc/profile    | Sources application settings in /etc/profile.d/\*.sh and /etc/bash.bashrc. |
+| ~/.bash_profile | Per-user, after /etc/profile. If this file does not exist, ~/.bash_login and ~/.profile are checked in that order. The skeleton file /etc/skel/.bash_profile also sources ~/.bashrc. |
 
 ### Java
 

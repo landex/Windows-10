@@ -281,7 +281,14 @@ Now we go to ***Bash*** configuration.
 
 ### The Bash !!!
 
-**Bash** is a Unix shell and command language written by Brian Fox for the GNU Project as a free software.
+**Bash** (Bourne-Again SHell) is a Unix shell and command language written by Brian Fox for the GNU Project as a free software. In this proceure, after configure de Windows Terminal, now is time to configure the ***Bash***.
+
+But before start the configuration, you will see the same details of configurations.
+
+The configurations files.
+
+|File|Description|
+|----|-----------|
 
 ### Java
 
@@ -313,3 +320,5 @@ Now we go to ***Bash*** configuration.
 [GNU Bash Manual](https://www.gnu.org/software/bash/)
 
 [Bash Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+
+[Bash Configurations Files](https://wiki.archlinux.org/index.php/bash)

@@ -291,6 +291,25 @@ The configurations files.
 |-----------------|----------------------------------------------------------------------------|
 | /etc/profile    | Sources application settings in /etc/profile.d/\*.sh and /etc/bash.bashrc. |
 | ~/.bash_profile | Per-user, after /etc/profile. If this file does not exist, ~/.bash_login and ~/.profile are checked in that order. The skeleton file /etc/skel/.bash_profile also sources ~/.bashrc. |
+| ~/.bash_logout  | Per-user, after exit of a login shell. |
+| /etc/bash.bash_logout | Depends on the -DSYS_BASH_LOGOUT="/etc/bash.bash_logout" compilation flag. After exit of a login shell. |
+| /etc/bash.bashrc | Depends on the -DSYS_BASHRC="/etc/bash.bashrc" compilation flag. Sources /usr/share/bash-completion/bash_completion. |
+| ~/.bashrc | Per-user, after /etc/bash.bashrc. |
+
+Creating files in home deirectory. Type commands below in home directory.
+
+The exemple to indicate the **home** directory.
+
+```bash
+yourusername@yourcomputername ~
+λ pwd
+/c/Users/yourusername
+yourusername@yourcomputername ~
+```
+
+
+
+
 
 ### Java
 

@@ -307,7 +307,29 @@ yourusername@yourcomputername ~
 yourusername@yourcomputername ~
 ```
 
+Creating the configuration file ***.bash_profile***.
 
+```bash
+yourusername@yourcomputername ~
+λ touch .bash_profile
+yourusername@yourcomputername ~
+```
+
+Creating the configuration file ***.bash_logout***.
+
+```bash
+yourusername@yourcomputername ~
+λ touch .bash_logout
+yourusername@yourcomputername ~
+```
+
+Creating the configuration file ***.bashrc***.
+
+```bash
+yourusername@yourcomputername ~
+λ touch .bashrc
+yourusername@yourcomputername ~
+```
 
 
 

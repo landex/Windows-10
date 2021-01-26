@@ -331,7 +331,28 @@ yourusername@yourcomputername ~
 yourusername@yourcomputername ~
 ```
 
+After created the configuration files, we will add some configurations.
 
+* ***bash_profile*** add this configuration in ***bash_profile***.
+
+```bash
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi
+```
+
+After added your bash_profile.
+```bash
+yourusername@yourcomputername ~
+λ cat .bash_profile
+if [ -f ~/.bashrc ]; then
+           source ~/.bashrc
+fi
+yourusername@yourcomputername ~
+λ
+```
+
+Close and open your terminal.
 
 ### Java
 
@@ -362,6 +383,14 @@ yourusername@yourcomputername ~
 
 [GNU Bash Manual](https://www.gnu.org/software/bash/)
 
+[Bash Man Page](https://linux.die.net/man/1/bash)
+
 [Bash Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
-[Bash Configurations Files](https://wiki.archlinux.org/index.php/bash)
+[Bash Archlinux](https://wiki.archlinux.org/index.php/bash)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Profile Vs Bashrc](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+
+

@@ -335,11 +335,11 @@ After created the configuration files, we will add some configurations.
 
 * ***bash_profile*** add this configuration in ***bash_profile***.
 
-```bash
-if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
-fi
-```
+            ```bash
+            if [ -f ~/.bashrc ]; then
+            source ~/.bashrc
+            fi
+            ```
 
 After added your bash_profile.
 ```bash

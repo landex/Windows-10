@@ -333,15 +333,8 @@ yourusername@yourcomputername ~
 
 After created the configuration files, we will add some configurations.
 
-* ***bash_profile*** add this configuration in ***bash_profile***.
+* ***.bash_profile*** add this configuration in ***.bash_profile***.
 
-            ```bash
-            if [ -f ~/.bashrc ]; then
-            source ~/.bashrc
-            fi
-            ```
-
-After added your bash_profile.
 ```bash
 yourusername@yourcomputername ~
 λ cat .bash_profile
@@ -351,6 +344,12 @@ fi
 yourusername@yourcomputername ~
 λ
 ```
+
+* ***.bashrc*** this files will be load when you open your terminal, and load configurations.
+
+**HISTFILE** in your ***.bashrc*** you inform the file that will be save history.
+
+
 
 Close and open your terminal.
 

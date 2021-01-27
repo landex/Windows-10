@@ -345,11 +345,62 @@ yourusername@yourcomputername ~
 λ
 ```
 
+* ***.bash_logout*** this files is used when you perform logout of terminal.
+
+Send commands below to configure to clear and reset the terminal after perform de logou.
+
+```bash
+yourusername@yourcomputername ~
+λ echo 'clear' >> .bash_logout
+yourusername@yourcomputername ~
+λ echo 'reset' >> .bash_logout
+yourusername@yourcomputername ~
+```
+
+File after configuration.
+
+```bash
+yourusername@yourcomputername ~
+λ cat .bash_logout
+clear
+reset
+yourusername@yourcomputername ~
+λ
+```
+
+
 * ***.bashrc*** this files will be load when you open your terminal, and load configurations.
 
 **HISTFILE** in your ***.bashrc*** you inform the file that will be save history.
 
+# History Configuration
 
+```bash
+yourusername@yourcomputername ~
+echo '# History Configuration' >> .bashrc
+echo 'export HISTFILE="/c/Users/yourusername/.bash_history"' >> .bashrc
+yourusername@yourcomputername ~
+```
+
+***.bashrc*** after this configuration.
+
+```bash
+yourusername@yourcomputername ~
+λ cat .bashrc
+# History Configuration
+export HISTFILE="/c/Users/yourusername/.bash_history"
+yourusername@yourcomputername ~
+```
+
+To ***HISTFILE*** ignore the duplicated item insert the value below in your ***.bashrc***.
+
+```bash
+yourusername@yourcomputername ~
+λ echo 'export HISTCONTROL=ignoredups' >> .bashrc
+yourusername@yourcomputername ~
+```
+
+```
 
 Close and open your terminal.
 

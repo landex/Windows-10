@@ -371,9 +371,9 @@ yourusername@yourcomputername ~
 
 * ***.bashrc*** this files will be load when you open your terminal, and load configurations.
 
-**HISTFILE** in your ***.bashrc*** you inform the file that will be save history.
+##### History Configuration.
 
-# History Configuration
+**HISTFILE** in your ***.bashrc*** you inform the file that will be save history.
 
 ```bash
 yourusername@yourcomputername ~
@@ -400,9 +400,29 @@ yourusername@yourcomputername ~
 yourusername@yourcomputername ~
 ```
 
-```
+##### PS1 and PS2 - This is not indication of Playstation 1 or Playstation 2... :stuck_out_tongue_winking_eye:
 
-Close and open your terminal.
+* The PS1: is a primary prompt variable. Currently it holds \u@\h:\w\$ special bash characters. This is the default structure of the bash prompt on many Linux systems and is displayed every time you log in using a terminal. 
+
+* The PS2: bash shell variable is a secondary prompt. This prompt is displayed if the shell waits for a user input, for example you forget to insert second quotation.
+
+The following table lists the possible placeholders that can be used in the PS1 variable:
+
+| Code | Effect                                                    |
+|------|-----------------------------------------------------------|
+| \u   | Username                                                  |
+| \h   | Hostname                                                  |
+| \w   | Current directory                                         |
+| \d   | Current date                                              |
+| \t   | Current time                                              |
+| \$   | Indicate the root user with '#' and normal users with '$' |
+| \j   | Number of currently running tasks (jobs)                  |
+
+In addition to the placeholders, it is possible to add colors and format the text of the PS1 and PS2.
+
+**Formating:**
+**Colors:**
+
 
 ### Java
 
@@ -442,5 +462,15 @@ Close and open your terminal.
 [Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
 
 [Bash Profile Vs Bashrc](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+
+[ANSI Scape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
+[PS1 and PS2](https://linuxconfig.org/bash-prompt-basics)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Colors and Formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+[Bash Prompt Customization](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
 
 

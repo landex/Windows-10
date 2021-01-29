@@ -471,6 +471,9 @@ In addition to the placeholders, it is possible to add colors and format the tex
 | 96   | Light cyan               | echo -e "Default \e[96mLight cyan"            |
 | 97   | White                    | echo -e "Default \e[97mWhite"                 |
 
+```shell
+echo -e "Default \e[97mWhite"
+```
 
 * Background
 

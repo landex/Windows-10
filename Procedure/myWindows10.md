@@ -408,6 +408,8 @@ yourusername@yourcomputername ~
 
 The following table lists the possible placeholders that can be used in the PS1 variable:
 
+**placeholders:**
+
 | Code | Effect                                                    |
 |------|-----------------------------------------------------------|
 | \u   | Username                                                  |
@@ -421,6 +423,13 @@ The following table lists the possible placeholders that can be used in the PS1 
 In addition to the placeholders, it is possible to add colors and format the text of the PS1 and PS2.
 
 **Formating:**
+
+* SET
+
+| Code | Description | Example                    |
+|------|-------------|----------------------------|
+| 1    | Bold/Bright | echo -e "Normal \e[1mBold" |
+
 **Colors:**
 
 

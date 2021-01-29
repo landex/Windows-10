@@ -426,12 +426,38 @@ In addition to the placeholders, it is possible to add colors and format the tex
 
 * SET
 
-| Code | Description | Example                    |
-|------|-------------|----------------------------|
-| 1    | Bold/Bright | echo -e "Normal \e[1mBold" |
+| Code | Description                                           | Example                          |
+|------|-------------------------------------------------------|----------------------------------|
+| 1    | Bold/Bright                                           | echo -e "Normal \e[1mBold"       |
+| 2	   | Dim	                                               | echo -e "Normal \e[2mDim"        |
+| 4    | Underlined                                            | echo -e "Normal \e[4mUnderlined" |
+| 5	   | Blink                                                 | echo -e "Normal \e[5mBlink"      |
+| 7	   | Reverse (invert the foreground and background colors) | echo -e "Normal \e[7minverted"   |
+| 8	   | Hidden (useful for passwords)                         | echo -e "Normal \e[8mHidden"     |
+
+* RESET
+
+| Code | Description          | Example                                       |
+|------|----------------------|-----------------------------------------------|
+| 0	   | Reset all attributes | echo -e "\e[0mNormal Text"                    |
+| 21   | Reset bold/bright	  | echo -e "Normal \e[1mBold \e[21mNormal"       |
+| 22   | Reset dim            | echo -e "Normal \e[2mDim \e[22mNormal"        |
+| 24   | Reset underlined	  | echo -e "Normal \e[4mUnderlined \e[24mNormal" |
+| 25   | Reset blink	      | echo -e "Normal \e[5mBlink \e[25mNormal"      |
+| 27   | Reset reverse        |	echo -e "Normal \e[7minverted \e[27mNormal"   |
+| 28   | Reset hidden	      | echo -e "Normal \e[8mHidden \e[28mNormal"     |
 
 **Colors:**
 
+* Foreground (text)
+
+| Code | Description              | Example                                       |
+|------|--------------------------|-----------------------------------------------|
+| 39   | Default foreground color |	echo -e "Default \e[39mDefault"               |
+| 30   | Black	                  | echo -e "Default \e[30mBlack"                 |
+| 31   | Red                      | echo -e "Default \e[31mRed"                   |
+
+* Background
 
 ### Java
 

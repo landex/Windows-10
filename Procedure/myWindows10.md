@@ -497,7 +497,20 @@ All this things only to customize your PS1 and PS2 terminal variables. And other
 
 Configuration of my ***PS1*** variable in yours ***.bashrc***.
 
+This is example of my PS1 configuration.
 
+```bash
+# PS1 Configuration
+export PS1="\e[34m[\e[1m\u\e[0m\e[96m@\h]\e[0m\e[103m\e[30m[\w]\e[0m "
+```
+The result is.
+
+```bash
+[yourusername@yourcomputername][~]
+```
+
+Teste colored
+<span style="color: green"> Some green text </span>
 
 ### Java
 

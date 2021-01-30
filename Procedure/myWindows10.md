@@ -493,6 +493,12 @@ In addition to the placeholders, it is possible to add colors and format the tex
 | 106  | Light cyan               | echo -e "Default \e[106mLight cyan"    |
 | 107  | White                    | echo -e "Default \e[107mWhite"         |
 
+All this things only to customize your PS1 and PS2 terminal variables. And other things in your terminal... :sunglasses:
+
+Configuration of my ***PS1*** variable in yours ***.bashrc***.
+
+
+
 ### Java
 
 ### Ruby
@@ -542,4 +548,4 @@ In addition to the placeholders, it is possible to add colors and format the tex
 
 [Bash Prompt Customization](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
 
-
+[VI Cheat Sheet](https://catonmat.net/ftp/bash-vi-editing-mode-cheat-sheet.pdf)

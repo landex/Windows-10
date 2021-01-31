@@ -575,7 +575,15 @@ After this we will insert some configuration in your ***.vimrc*** file.
 [yourusername@yourcomputername][~] ehco 'set number' >> .vimrc
 ```
 
-In this link have more customization to [.vimrc file](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20(Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.) file you can see if you can perform more configuration.
+In this link have more customization to [vimrc file](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20(Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.) file you can see if you can perform more configuration.
+
+After this see the result below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_115109.png" alt="drawing" width="400"/>
+
+
 
 ### Java
 

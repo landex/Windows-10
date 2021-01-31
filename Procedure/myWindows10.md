@@ -505,12 +505,48 @@ export PS1="\e[34m[\e[1m\u\e[0m\e[96m@\h]\e[0m\e[103m\e[30m[\w]\e[0m "
 ```
 The result is.
 
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210130_202318.png" alt="drawing" width="400"/>
+
+
+
+To PS2 I'll not make any changes, but still free to make your changes according the possibilities configurations describe above.
+
+Colors in output, now we will configure to display colored when we run, commands equals ***ls*** and  ***grep***.
+
+First we will insert the alias to ***ls***.
+
 ```bash
+[yourusername@yourcomputername][~] echo "alias ls='ls --color=auto'" >> .bashrc
 [yourusername@yourcomputername][~]
 ```
 
-Teste colored
-<span style="color: green"> Some green text </span>
+After this load the ***.bashrc*** again, closeing and open terminal or run command ***sourcer .bashrc***. This is result after this configuration.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210130_215121.png" alt="drawing" width="400"/>
+
+
+
+Now we will configure the ***grep*** to coloered the results.
+
+```bash
+[yourusername@yourcomputername][~] echo "alias grep='grep --color=auto'" >> ~/.bashrc
+[yourusername@yourcomputername][~] echo "alias fgrep='fgrep --color=auto'" >> ~/.bashrc
+[yourusername@yourcomputername][~] echo "alias egrep='egrep --color=auto'" >> ~/.bashrc
+```
+
+The output after this configurations.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_115109.png" alt="drawing" width="400"/>
+
+
+
+
 
 ### Java
 
@@ -562,3 +598,9 @@ Teste colored
 [Bash Prompt Customization](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
 
 [VI Cheat Sheet](https://catonmat.net/ftp/bash-vi-editing-mode-cheat-sheet.pdf)
+
+[Colors during LS commands](https://www.cyberciti.biz/faq/how-to-turn-on-or-off-colors-in-bash/)
+
+[Colors in command grep](https://landoflinux.com/linux_alias_functions.html)
+
+[MAN Page LS](https://linuxcommand.org/lc3_man_pages/ls1.html)

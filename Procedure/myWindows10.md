@@ -546,7 +546,36 @@ The output after this configurations.
 
 
 
+### VIM
 
+So now we will configure the ***vim***, by defaul when your install ***Cmder*** the ***vim*** comming too. Some times is necessary edit some small file, in local machine or in server, in this case is better user ***vim***. We will create a ***.vimrc*** to insert some configuraitons.
+
+Creating the ***.vimrc*** file in your home directory.
+
+```bash
+[yourusername@yourcomputername][~] pwd
+/c/Users/yourusername
+[yourusername@yourcomputername][~] touch .vimrc
+[yourusername@yourcomputername][~] ls -ltra .vimrc
+-rw-r--r-- 1 yourusername 197609 0 Jan 31 12:02 .vimrc
+[yourusername@yourcomputername][~]
+```
+
+After this we will insert some configuration in your ***.vimrc*** file.
+
+* Enable syntax highlights
+
+```bash
+[yourusername@yourcomputername][~] ehco 'syntax on' >> .vimrc
+```
+
+* Enbale number of lines
+
+```bash
+[yourusername@yourcomputername][~] ehco 'set number' >> .vimrc
+```
+
+In this link have more customization to [.vimrc file](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20(Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.) file you can see if you can perform more configuration.
 
 ### Java
 
@@ -604,3 +633,7 @@ The output after this configurations.
 [Colors in command grep](https://landoflinux.com/linux_alias_functions.html)
 
 [MAN Page LS](https://linuxcommand.org/lc3_man_pages/ls1.html)
+
+[VIM offical Documentation](https://www.vim.org/docs.php)
+
+[VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20(Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)

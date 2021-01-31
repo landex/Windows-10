@@ -587,6 +587,10 @@ After this see the result below.
 
 ### Java
 
+Java is the most popular programming language of world, as is most used to access some applications too. Below I'll show you how to configure **Java** in Windows 10.
+
+First step perform the download of Java, we will use the JDK 11 LTS. Make download of **Java.exe** run classical installation... Next...Next... Finishi!!!
+
 ### Ruby
 
 ### Python

@@ -717,4 +717,6 @@ javac 11.0.10
 
 [JDK 11 LTS](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
 
+[JAVA Command Line Configuration](https://www.codejava.net/java-core/how-to-set-environment-variables-for-java-using-command-line)
+
 [Java Configuration](https://javatutorial.net/set-java-home-windows-10)

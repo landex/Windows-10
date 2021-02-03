@@ -719,4 +719,7 @@ javac 11.0.10
 
 [JAVA Command Line Configuration](https://www.codejava.net/java-core/how-to-set-environment-variables-for-java-using-command-line)
 
-[Java Configuration](https://javatutorial.net/set-java-home-windows-10)
+[Java Configuration by GUI](https://javatutorial.net/set-java-home-windows-10)
+
+[More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
+

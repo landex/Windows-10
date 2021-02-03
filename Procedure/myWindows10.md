@@ -75,74 +75,38 @@ Access the Cmder download page, and make download of full version of **Cmder** a
 
 After completed the download, unzip the folder and move to ***C:*** to organize I created in ***C:*** a subdirectory called ***MyApps***, but fell free to custom your configuration.
 
-In search type ***system env*** access the option below.
+Now using command line ***cmd*** we will insert the environment variables. But you need open ***cmd*** with administrator user account to edit and add the environement variables.
 
+* Insert CMDER_ROOT varibale
 
+```bat
+C:\Windows\system32>setx -m CMDER_ROOT "C:\MyApps\cmder"
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/system_env_20210118_225223.png" alt="drawing" width="400"/>
+SUCCESS: Specified value was saved.
 
+C:\Windows\system32>
+```
 
+* Insert %ConEmuDir% variable
 
-In this window select ***Environment Variables***.
+```bat
+C:\Windows\system32>setx -m %ConEmuDir% "[cmder_root]\vendor\conemu-maximus5"
 
+SUCCESS: Specified value was saved.
 
+C:\Windows\system32>
+```
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118%20_225409.png" alt="drawing" width="400"/>
+* Insert in PATH the variable CMDER_ROOT
 
+```bat
+C:\Windows\system32>setx -m PATH "%PATH%;%CMDER_ROOT%"
 
+SUCCESS: Specified value was saved.
 
-We will create an **System variables**, click in **NEW** and define the variable name equals ***CMDER_ROOT*** and the variable value equals ***the path of your Cmder unconpress folder***, and click in ***OK*** see example below.
+C:\Windows\system32>
+```
 
-
-
-System Variables.
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_225530.png" alt="drawing" width="400"/>
-
-
-New Variable.
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_225816.png" alt="drawing" width="400"/>
-
-
-
-Now we will added the other varibale, so click in ***New*** again ans in variable name type ***%ConEmuDir%*** and in variable value type ***[cmder_root]\vendor\conemu-maximus5*** and click in ***OK***
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210118_231509.png" alt="drawing" width="400"/>
-
-
-
-Now we need insert variable in ***Path***. Select ***path*** row and click in ***Edit***.
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20083750.png" alt="drawing" width="400"/>
-
-
-
-In new window open, click in ***new***.
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20084053.png" alt="drawing" width="400"/>
-
-
-
-Add the path of ***cmder***.
-
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20084155.png" alt="drawing" width="400"/>
-
-
-
-Well done, close click in ***OK*** and ***OK*** again in next window. And now restar you computer.
 
 Testing the configuration, open ***Run*** shotcurt win+r, and type ***cmder*** and press enter, if ***cmer*** opened, well done, configuration successfull.
 

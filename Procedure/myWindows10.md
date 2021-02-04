@@ -619,8 +619,11 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.10+8-LTS-162, mixed mode)
 javac 11.0.10
 [yourusernane@yourcomputername][~]
 ```
+Well done, the Java configuration is ok, if the your results are equals that the displayed above. 
 
 ### Ruby
+
+Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation. T
 
 ### Python
 
@@ -686,4 +689,6 @@ javac 11.0.10
 [Java Configuration by GUI](https://javatutorial.net/set-java-home-windows-10)
 
 [More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
+
+[Ruby Official](https://www.ruby-lang.org/en/)
 

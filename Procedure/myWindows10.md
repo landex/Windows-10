@@ -623,7 +623,7 @@ Well done, the Java configuration is ok, if the your results are equals that the
 
 ### Ruby
 
-Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation. I'll testing the Ruby 3.0, in official web site, in download sections I prefer install the ***Ruby 3.0.0-1(x64)*** more downloads options in this link ->[RUBY](https://rubyinstaller.org/downloads/).
+Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation. I'll testing the Ruby 3.0, in official web site, in download sections I prefer install the ***Ruby 3.0.0-1(x64)*** more downloads options in this link -> [RUBY](https://rubyinstaller.org/downloads/).
 
 The installation is a classic but I prefer custom, see below the options that I use.
 
@@ -635,6 +635,14 @@ The installation is a classic but I prefer custom, see below the options that I 
 
 The classic Next and Install.
 
+This window will be open, only close because, is not need select any value.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210204_224456.png" alt="drawing" width="400"/>
+
+
+
 After installation we run command below in your **Windows Terminal** and validate that ***Ruby*** work's.
 
 ```bash
@@ -642,6 +650,16 @@ After installation we run command below in your **Windows Terminal** and validat
 ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
 [yourusername@yourcomputername][~]
 ```
+
+Try the ***irb***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_071051.png" alt="drawing" width="400"/>
+
+
+
+
 
 ### Python
 
@@ -711,4 +729,8 @@ The ***Python*** is a other best programming language of world, and now this lan
 [More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
 
 [Ruby Official](https://www.ruby-lang.org/en/)
+
+[Ruby Installers to Windows](https://rubyinstaller.org/downloads/)
+
+[Python Official](https://www.python.org/)
 

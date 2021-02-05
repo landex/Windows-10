@@ -665,7 +665,33 @@ Try the ***irb***.
 
 The ***Python*** is a other best programming language of world, and now this language stay in *hyper* around the world.
 
+The installation in **Windows** is the classic instalation, the famous next next finish.
 
+But I prefer some customization in my installation, see prints below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161420.png" alt="drawing" width="400"/>
+
+
+
+Select the all otions and click in ***Customize Installation***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161506.png" alt="drawing" width="400"/>
+
+
+
+In this window, verify if all options are selected, to proced with installation.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161723.png" alt="drawing" width="400"/>
+
+
+
+Now in window **Advanced Options** select all option and select the path that you will install the python, I will use ***C:\MyApps\Python39***, now proced with installation.
 ## References
 
 [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)

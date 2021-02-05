@@ -692,7 +692,29 @@ In this window, verify if all options are selected, to proced with installation.
 
 
 Now in window **Advanced Options** select all option and select the path that you will install the python, I will use ***C:\MyApps\Python39***, now proced with installation.
+
+In this window select to **Disable Path Lenght Limit**
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_162735.png" alt="drawing" width="400"/>
+
+
+
+Testing the Python Installation. In your ***Windows Terminal*** type ***python***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_163204.png" alt="drawing" width="400"/>
+
+
+
+**THE END**
+
+
+
 ## References
+
 
 [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
 

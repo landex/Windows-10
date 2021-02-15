@@ -157,7 +157,7 @@ To customize your ***Windows Terminal*** type shortcurt **CTRL+,** (Control and 
 
 This is part of configuration that define the terminals that will be open.
 
-´´´json
+```json
 
             {
                 // Make changes here to the powershell.exe profile.
@@ -180,7 +180,7 @@ This is part of configuration that define the terminals that will be open.
                 "source": "Windows.Terminal.Azure"
             }
         
-´´´
+```
 
 First we need generate a new ***guid*** to insert in configuration. Open PowerShell terminal and type ***New-Guid***, the command will return a code below.
 

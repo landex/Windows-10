@@ -130,6 +130,55 @@ C:\Users\yourusername>
 
 Well done, the Java configuration is ok, if the your results are equals that the displayed above.
 
+### Cmder
+
+For me the Linux or Unix terminal is the best of World, there is not other equals. So to solve this problem in Windows I use the **Cmder** to emulte the Linux terminal in Windows.
+
+Access the Cmder download page, and make download of full version of **Cmder** attention **FULL VERSION**!!!
+
+After completed the download, unzip the folder and move to ***C:*** to organize I created in ***C:*** a subdirectory called ***MyApps***, but fell free to custom your configuration.
+
+Now using command line ***cmd*** we will insert the environment variables. But you need open ***cmd*** with administrator user account to edit and add the environement variables.
+
+* **Insert CMDER_ROOT varibale**
+
+```bat
+C:\Windows\system32>setx -m CMDER_ROOT "C:\MyApps\cmder"
+
+SUCCESS: Specified value was saved.
+
+C:\Windows\system32>
+```
+
+* **Insert %ConEmuDir% variable**
+
+```bat
+C:\Windows\system32>setx -m %ConEmuDir% "[cmder_root]\vendor\conemu-maximus5"
+
+SUCCESS: Specified value was saved.
+
+C:\Windows\system32>
+```
+
+* **Insert in PATH the variable CMDER_ROOT**
+
+```bat
+C:\Windows\system32>setx -m PATH "%PATH%;%CMDER_ROOT%"
+
+SUCCESS: Specified value was saved.
+
+C:\Windows\system32>
+```
+
+Testing the configuration, open ***Run*** shotcurt win+r, and type ***cmder*** and press enter, if ***cmer*** opened, well done, configuration successfull.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225726.png" alt="drawing" width="400"/>
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20225906.png" alt="drawing" width="400"/>
+
+
 ***THE END***
 
 ## References
@@ -145,3 +194,7 @@ Well done, the Java configuration is ok, if the your results are equals that the
 [Java Configuration by GUI](https://javatutorial.net/set-java-home-windows-10)
 
 [More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
+
+[Cmder](https://cmder.net/)
+
+[Cmder Configuration](https://kags.me.ke/post/cmder-commander-console-for-windows/#:~:text=To%20install%2C%20visit%20Cmder%20website,for%20modifying%20the%20configuration%20files.)

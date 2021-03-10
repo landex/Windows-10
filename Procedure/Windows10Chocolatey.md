@@ -69,26 +69,17 @@ The configuration done to Visual Studio Code.
 
 Java is the most popular programming language of world, as is most used to access some applications too. Below I'll show you how to configure **Java** in Windows 10.
 
-First step perform the download of Java, we will use the JDK 11 LTS. Make download of **Java.exe** run classical installation... Next...Next... Finishi!!!
+First step perform the download of [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html#license-lightbox) , we will use the JDK 11 LTS. Make download of **Java.exe** run classical installation... Next...Next... Finishi!!!
 
 After installation follow this configuration, you need access the **System Properties** again to configure **Java** or we have a better alternative that is use the command line to configure... I think that use command line is cool.
 
-First you need open *CMD* with ADM level to run commands. Press ***WIN*** button and type ***CMD*** in search box, click with right mouse button and select ***Run as Administrator***.
-
-Search CMD.
+First you need open *CMD* with ADM level to run commands. Press ***WIN*** button and ***Q*** in search box type ***CMD***, click with right mouse button and select ***Run as Administrator***.
 
 
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210201_082919.png" alt="drawing" width="400"/>
-
-
-
-CMD Opened.
-
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/search_20210310_185900.png" alt="drawing" width="400"/>
 
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210201_083105.png" alt="drawing" width="400"/>
-
 
 
 Run commands below to insert **JAVA** configuration in environment variables. By default if you not changed during installation, the **JAVA** will be installed in this path ***C:\Program Files\Java\jdk-11.0.10*** regarding that we talked about **JAVA 11**.
@@ -143,5 +134,12 @@ Well done, the Java configuration is ok, if the your results are equals that the
 
 [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
 
-
 [Visual Studio Code](https://code.visualstudio.com/)
+
+[JDK 11 LTS](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
+
+[JAVA Command Line Configuration](https://www.codejava.net/java-core/how-to-set-environment-variables-for-java-using-command-line)
+
+[Java Configuration by GUI](https://javatutorial.net/set-java-home-windows-10)
+
+[More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)

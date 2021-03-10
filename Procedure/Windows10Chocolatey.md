@@ -79,7 +79,7 @@ First you need open *CMD* with ADM level to run commands. Press ***WIN*** button
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/search_20210310_185900.png" alt="drawing" width="400"/>
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210201_083105.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/Screenshot_20210310_192138.png" alt="drawing" width="400"/>
 
 
 Run commands below to insert **JAVA** configuration in environment variables. By default if you not changed during installation, the **JAVA** will be installed in this path ***C:\Program Files\Java\jdk-11.0.10*** regarding that we talked about **JAVA 11**.
@@ -106,26 +106,28 @@ SUCCESS: Specified value was saved.
 
 C:\Windows\system32>
 ```
+Now open the ***CMD*** and test if Java was configred with success.
 
-Close your terminal ***CMD*** and open the ***Windows Terminal***. We will run commands below to validate that installation are ok.
+Verify the **Java Version** running command below.
 
-***Java -Version***
-
-```bash
-[yourusernane@yourcomputername][~] java -version
+```batch
+C:\Users\yourusername>java -version
 java version "11.0.10" 2021-01-19 LTS
 Java(TM) SE Runtime Environment 18.9 (build 11.0.10+8-LTS-162)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.10+8-LTS-162, mixed mode)
-[yourusernane@yourcomputername][~]
+
+C:\Users\yourusername>
 ```
 
-***Javac -Version***
+Verify the **Javac Version** Java is the version of Java compiler.
 
-```bash
-[yourusernane@yourcomputername][~] javac -version
+```batch
+C:\Users\yourusername>javac -version
 javac 11.0.10
-[yourusernane@yourcomputername][~]
+
+C:\Users\yourusername>
 ```
+
 Well done, the Java configuration is ok, if the your results are equals that the displayed above.
 
 ***THE END***

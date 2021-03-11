@@ -542,6 +542,12 @@ After this see the result below.
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_121754.png" alt="drawing" width="400"/>
 
+Now is time of ***Chocolatey***
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/chocolatey.png" alt="drawing" width="400"/>
+
+
 ***THE END***
 
 ## References
@@ -601,3 +607,5 @@ After this see the result below.
 [VIM offical Documentation](https://www.vim.org/docs.php)
 
 [VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)
+
+[Chocolatey](https://chocolatey.org/)

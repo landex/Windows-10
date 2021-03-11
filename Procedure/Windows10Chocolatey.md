@@ -224,12 +224,12 @@ We will added some configuration now, see example below. This is my configuratio
 The result of my configuration is.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-20%20225142.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/Screenshot_20210310_215518.png" alt="drawing" width="400"/>
 
 
-With this my configuration when selected ***Cmder*** will open in **Bash** mode, with this is possible we configure **Bash** files to customize more commands in **Terminal**.
+With this my configuration when selected the **Bash.exe** to open in ***Bash*** mode, with this is possible we configure **Bash** files to customize more commands in **Terminal**.
 
-To define your profile with default, add the **guid**  of your ***Cmder*** configuration below.
+To define your profile with default, add the **guid** of your configuration below.
 
 ```json
 "$schema": "https://aka.ms/terminal-profiles-schema",
@@ -238,17 +238,13 @@ To define your profile with default, add the **guid**  of your ***Cmder*** confi
 
 ```
 
-After this configurationb above, when is open the ***Windows Terminal*** by default will open ***Cmder*** in Bash mode, now we can configure the Bash to use native in ***Windows*** with this given more power to user.
+After this configurationb above, when is open the ***Windows Terminal*** by default will open in **Bash** mode, now we can configure the Bash to use native in ***Windows*** with this given more power to user.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210122_070819.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/Screenshot_20210310_215840.png" alt="drawing" width="400"/>
 
 
-Now we go to ***Bash*** configuration.
-
-
-
-
+Now we go to ***Bash*** configuration, to customize your ***Bash*** commands.
 
 
 ***THE END***

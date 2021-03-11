@@ -246,6 +246,265 @@ After this configurationb above, when is open the ***Windows Terminal*** by defa
 
 Now we go to ***Bash*** configuration, to customize your ***Bash*** commands.
 
+### The Bash !!!
+
+**Bash** (Bourne-Again SHell) is a Unix shell and command language written by Brian Fox for the GNU Project as a free software. In this proceure, after configure de Windows Terminal, now is time to configure the ***Bash***.
+
+But before start the configuration, you will see the same details of configurations.
+
+The configurations files.
+
+| File                  | Description                                                                                                                                                                          |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| /etc/profile          | Sources application settings in /etc/profile.d/\*.sh and /etc/bash.bashrc.                                                                                                           |
+| ~/.bash_profile       | Per-user, after /etc/profile. If this file does not exist, ~/.bash_login and ~/.profile are checked in that order. The skeleton file /etc/skel/.bash_profile also sources ~/.bashrc. |
+| ~/.bash_logout        | Per-user, after exit of a login shell.                                                                                                                                               |
+| /etc/bash.bash_logout | Depends on the -DSYS_BASH_LOGOUT="/etc/bash.bash_logout" compilation flag. After exit of a login shell.                                                                              |
+| /etc/bash.bashrc      | Depends on the -DSYS_BASHRC="/etc/bash.bashrc" compilation flag. Sources /usr/share/bash-completion/bash_completion.                                                                 |
+| ~/.bashrc             | Per-user, after /etc/bash.bashrc.                                                                                                                                                    |
+
+Creating files in home deirectory. Type commands below in home directory.
+
+The exemple to indicate the **home** directory.
+
+```bash
+yourusername@yourcomputername ~
+λ pwd
+/c/Users/yourusername
+yourusername@yourcomputername ~
+```
+
+Creating the configuration file ***.bash_profile***.
+
+```bash
+yourusername@yourcomputername ~
+λ touch .bash_profile
+yourusername@yourcomputername ~
+```
+
+Creating the configuration file ***.bash_logout***.
+
+```bash
+yourusername@yourcomputername ~
+λ touch .bash_logout
+yourusername@yourcomputername ~
+```
+
+Creating the configuration file ***.bashrc***.
+
+```bash
+yourusername@yourcomputername ~
+λ touch .bashrc
+yourusername@yourcomputername ~
+```
+
+After created the configuration files, we will add some configurations.
+
+* ***.bash_profile*** add this configuration in ***.bash_profile***.
+
+```bash
+yourusername@yourcomputername ~
+λ cat .bash_profile
+if [ -f ~/.bashrc ]; then
+           source ~/.bashrc
+fi
+yourusername@yourcomputername ~
+λ
+```
+
+* ***.bash_logout*** this files is used when you perform logout of terminal.
+
+Send commands below to configure to clear and reset the terminal after perform de logou.
+
+```bash
+yourusername@yourcomputername ~
+λ echo 'clear' >> .bash_logout
+yourusername@yourcomputername ~
+λ echo 'reset' >> .bash_logout
+yourusername@yourcomputername ~
+```
+
+File after configuration.
+
+```bash
+yourusername@yourcomputername ~
+λ cat .bash_logout
+clear
+reset
+yourusername@yourcomputername ~
+λ
+```
+
+* ***.bashrc*** this files will be load when you open your terminal, and load configurations.
+
+##### History Configuration.
+
+**HISTFILE** in your ***.bashrc*** you inform the file that will be save history.
+
+```bash
+yourusername@yourcomputername ~
+echo '# History Configuration' >> .bashrc
+echo 'export HISTFILE="/c/Users/yourusername/.bash_history"' >> .bashrc
+yourusername@yourcomputername ~
+```
+
+***.bashrc*** after this configuration.
+
+```bash
+yourusername@yourcomputername ~
+λ cat .bashrc
+# History Configuration
+export HISTFILE="/c/Users/yourusername/.bash_history"
+yourusername@yourcomputername ~
+```
+
+To ***HISTFILE*** ignore the duplicated item insert the value below in your ***.bashrc***.
+
+```bash
+yourusername@yourcomputername ~
+λ echo 'export HISTCONTROL=ignoredups' >> .bashrc
+yourusername@yourcomputername ~
+```
+
+##### PS1 and PS2 - This is not indication of Playstation 1 or Playstation 2... :stuck_out_tongue_winking_eye:
+
+* The PS1: is a primary prompt variable. Currently it holds \u@\h:\w\$ special bash characters. This is the default structure of the bash prompt on many Linux systems and is displayed every time you log in using a terminal. 
+
+* The PS2: bash shell variable is a secondary prompt. This prompt is displayed if the shell waits for a user input, for example you forget to insert second quotation.
+
+The following table lists the possible placeholders that can be used in the PS1 variable:
+
+**placeholders:**
+
+| Code | Effect                                                    |
+|------|-----------------------------------------------------------|
+| \u   | Username                                                  |
+| \h   | Hostname                                                  |
+| \w   | Current directory                                         |
+| \d   | Current date                                              |
+| \t   | Current time                                              |
+| \$   | Indicate the root user with '#' and normal users with '$' |
+| \j   | Number of currently running tasks (jobs)                  |
+
+In addition to the placeholders, it is possible to add colors and format the text of the PS1 and PS2.
+
+**Formating:**
+
+* SET
+
+| Code | Description                                           | Example                          |
+|------|-------------------------------------------------------|----------------------------------|
+| 1    | Bold/Bright                                           | echo -e "Normal \e[1mBold"       |
+| 2	   | Dim	                                               | echo -e "Normal \e[2mDim"        |
+| 4    | Underlined                                            | echo -e "Normal \e[4mUnderlined" |
+| 5	   | Blink                                                 | echo -e "Normal \e[5mBlink"      |
+| 7	   | Reverse (invert the foreground and background colors) | echo -e "Normal \e[7minverted"   |
+| 8	   | Hidden (useful for passwords)                         | echo -e "Normal \e[8mHidden"     |
+
+* RESET
+
+| Code | Description          | Example                                       |
+|------|----------------------|-----------------------------------------------|
+| 0	   | Reset all attributes | echo -e "\e[0mNormal Text"                    |
+| 21   | Reset bold/bright	  | echo -e "Normal \e[1mBold \e[21mNormal"       |
+| 22   | Reset dim            | echo -e "Normal \e[2mDim \e[22mNormal"        |
+| 24   | Reset underlined	  | echo -e "Normal \e[4mUnderlined \e[24mNormal" |
+| 25   | Reset blink	      | echo -e "Normal \e[5mBlink \e[25mNormal"      |
+| 27   | Reset reverse        |	echo -e "Normal \e[7minverted \e[27mNormal"   |
+| 28   | Reset hidden	      | echo -e "Normal \e[8mHidden \e[28mNormal"     |
+
+**Colors:**
+
+* Foreground (text)
+
+| Code | Description              | Example                                       |
+|------|--------------------------|-----------------------------------------------|
+| 39   | Default foreground color |	echo -e "Default \e[39mDefault"               |
+| 30   | Black	                  | echo -e "Default \e[30mBlack"                 |
+| 31   | Red                      | echo -e "Default \e[31mRed"                   |
+| 32   | Green	                  | echo -e "Default \e[32mGreen"                 |
+| 33   | Yellow	                  | echo -e "Default \e[33mYellow"                |
+| 34   | Blue                     | echo -e "Default \e[34mBlue"                  |
+| 35   | Magenta                  | echo -e "Default \e[35mMagenta"               |
+| 36   | Cyan	                  | echo -e "Default \e[36mCyan"                  |
+| 37   | Light gray	              | echo -e "Default \e[37mLight gray"            |
+| 90   | Dark gray	              | echo -e "Default \e[90mDark gray"             |
+| 91   | Light red                | echo -e "Default \e[91mLight red"             |
+| 92   | Light green              | echo -e "Default \e[92mLight green"           |
+| 93   | Light yellow             | echo -e "Default \e[93mLight yellow"          |
+| 94   | Light blue               | echo -e "Default \e[94mLight blue"            |
+| 95   | Light magenta	          | echo -e "Default \e[95mLight magenta"         |
+| 96   | Light cyan               | echo -e "Default \e[96mLight cyan"            |
+| 97   | White                    | echo -e "Default \e[97mWhite"                 |
+
+* Background
+
+| Code | Color                    | Example                                |
+|------|--------------------------|----------------------------------------|
+| 49   | Default background color | echo -e "Default \e[49mDefault"        |
+| 40   | Black                    | echo -e "Default \e[40mBlack"          |
+| 41   | Red                      | echo -e "Default \e[41mRed"            | 
+| 42   | Green                    | echo -e "Default \e[42mGreen"          |
+| 43   | Yellow                   | echo -e "Default \e[43mYellow"         |
+| 44   | Blue                     | echo -e "Default \e[44mBlue"           |
+| 45   | Magenta                  | echo -e "Default \e[45mMagenta"        |
+| 46   | Cyan                     |	echo -e "Default \e[46mCyan"           |
+| 47   | Light gray               | echo -e "Default \e[47mLight gray"     |
+| 100  | Dark gray	              | echo -e "Default \e[100mDark gray"     |
+| 101  | Light red                | echo -e "Default \e[101mLight red"     |
+| 102  | Light green              | echo -e "Default \e[102mLight green"   |
+| 103  | Light yellow             | echo -e "Default \e[103mLight yellow"  |
+| 104  | Light blue               | echo -e "Default \e[104mLight blue"    |
+| 105  | Light magenta	          | echo -e "Default \e[105mLight magenta" |
+| 106  | Light cyan               | echo -e "Default \e[106mLight cyan"    |
+| 107  | White                    | echo -e "Default \e[107mWhite"         |
+
+All this things only to customize your PS1 and PS2 terminal variables. And other things in your terminal... :sunglasses:
+
+Configuration of my ***PS1*** variable in yours ***.bashrc***.
+
+This is example of my PS1 configuration.
+
+```bash
+# PS1 Configuration
+export PS1="\e[34m[\e[1m\u\e[0m\e[96m@\h]\e[0m\e[103m\e[30m[\w]\e[0m "
+```
+The result is.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210130_202318.png" alt="drawing" width="400"/>
+
+
+To PS2 I'll not make any changes, but still free to make your changes according the possibilities configurations describe above.
+
+Colors in output, now we will configure to display colored when we run, commands equals ***ls*** and  ***grep***.
+
+First we will insert the alias to ***ls***.
+
+```bash
+[yourusername@yourcomputername][~] echo "alias ls='ls --color=auto'" >> .bashrc
+[yourusername@yourcomputername][~]
+```
+
+After this load the ***.bashrc*** again, closeing and open terminal or run command ***sourcer .bashrc***. This is result after this configuration.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210130_215121.png" alt="drawing" width="400"/>
+
+
+Now we will configure the ***grep*** to coloered the results.
+
+```bash
+[yourusername@yourcomputername][~] echo "alias grep='grep --color=auto'" >> ~/.bashrc
+[yourusername@yourcomputername][~] echo "alias fgrep='fgrep --color=auto'" >> ~/.bashrc
+[yourusername@yourcomputername][~] echo "alias egrep='egrep --color=auto'" >> ~/.bashrc
+```
+
+The output after this configurations.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_115109.png" alt="drawing" width="400"/>
+
 
 ***THE END***
 
@@ -272,3 +531,26 @@ Now we go to ***Bash*** configuration, to customize your ***Bash*** commands.
 [Windows Terminal More Customization](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31)
 
 [Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
+
+[GNU Bash Manual](https://www.gnu.org/software/bash/)
+
+[Bash Man Page](https://linux.die.net/man/1/bash)
+
+[Bash Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+
+[Bash Archlinux](https://wiki.archlinux.org/index.php/bash)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Profile Vs Bashrc](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+
+[ANSI Scape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
+[PS1 and PS2](https://linuxconfig.org/bash-prompt-basics)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Colors and Formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+[Bash Prompt Customization](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
+

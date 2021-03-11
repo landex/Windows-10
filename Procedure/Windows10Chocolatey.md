@@ -152,7 +152,7 @@ After installation you can press the shotcurt win+r and type in ***Run*** the le
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20232242.png" alt="drawing" width="400"/>
 
 
-Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. But why not we can use only ***Cmder***. Why not!!! The Windows Terminal is better! 
+Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. 
 
 This is a ***Windows Terminal*** face
 
@@ -160,9 +160,9 @@ This is a ***Windows Terminal*** face
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
 
 
-If you press ***CRTL+,*** will open a configuration file, similar of VSCode, in this file we will customize the ***Windows Terminal*** to integrate with ***Cmder*** to use ***Fira Code*** and ***Ligatures***. Is possible configure to TABS open a connection directy with other server machines.
+If you press ***CRTL+,*** will open a configuration file, similar of VSCode, in this file we will customize the ***Windows Terminal*** to integrate with ***Git-Bash*** to use ***Fira Code*** and ***Ligatures***. Is possible configure to TABS open a connection directy with other server machines.
 
-But in this moment I'll show how to customize, fonts, colors and  integrate with ***Cmder*** to you use the ***Unix*** commands in your ***Windows Terminal***.
+But in this moment I'll show how to customize, fonts, colors and  integrate with ***Git-Bash*** to you use the ***Unix*** commands in your ***Windows Terminal***.
 
 To customize your ***Windows Terminal*** type shortcurt **CTRL+,** (Control and comma). The ***settings.json*** file will be open. We will perform some configurations to customize the terminal.
 
@@ -171,14 +171,12 @@ This is part of configuration that define the terminals that will be open.
 ```json
 
             {
-                // Make changes here to the powershell.exe profile.
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false
             },
             {
-                // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
                 "commandline": "cmd.exe",
@@ -196,21 +194,19 @@ This is part of configuration that define the terminals that will be open.
 First we need generate a new ***guid*** to insert in configuration. Open PowerShell terminal and type ***New-Guid***, the command will return a code below.
 
 
-
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
 
 
-
-We will added some configuration now, see example below. This is my configuration of customization.
+We will added some configuration now, see example below. This is my configuration of customization. YOu can see references links in end of this procedure to more information and idea of configuration.
 
 ```json
-
-            {
+           {
+                // Configuration of my terminal to use bash
                 "guid": "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}",
                 "name": "Terminator",
-                "commandline": "%CMDER_ROOT%\\vendor\\git-for-windows\\bin\\bash.exe",
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "startingDirectory": "%USERPROFILE%",
-                "icon": "%CMDER_ROOT%\\icons\\cmder_blue.ico",
+                "icon": "C:\\Program Files\\Git\\ico\\rocket.png",
                 "fontFace": "Fira Code",
                 "hidden": false,
                 "acrylicOpacity": 0.5,
@@ -222,7 +218,7 @@ We will added some configuration now, see example below. This is my configuratio
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "useAcrylic": true
-              }
+              },
 ```
 
 The result of my configuration is.

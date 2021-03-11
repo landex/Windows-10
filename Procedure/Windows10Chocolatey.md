@@ -130,6 +130,131 @@ C:\Users\yourusername>
 
 Well done, the Java configuration is ok, if the your results are equals that the displayed above.
 
+## Git
+
+Now we will install the git, and we will use the git-bash to configure the best terminal ever of ***Microsoft*** first step make download of [Git}(https://git-scm.com/download/win).
+
+In this moment we use the tipical installation, and someome ask where is chocolatey??? Wait! Wait! After the terminal configuration we will install the chocolatey, please wait!!! The instalation of Git you select the default configurations, next, next, and finish!!!
+
+After installation now we will go to the best terminal of **Windows**.
+
+### Windows Terminal
+
+The best thing that happened in 2019 was the Windows Terminal launch... Awesome!!! Install Windows terminal from the MS Store.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20230930.png" alt="drawing" width="400"/>
+
+
+After installation you can press the shotcurt win+r and type in ***Run*** the letters **wt** andd press **OK**.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20232242.png" alt="drawing" width="400"/>
+
+
+Oh!!! But is the ***PowerShell*** with tabs... I hate... No is better than this, is a fully customizable terminal in Windows. But why not we can use only ***Cmder***. Why not!!! The Windows Terminal is better! 
+
+This is a ***Windows Terminal*** face
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
+
+
+If you press ***CRTL+,*** will open a configuration file, similar of VSCode, in this file we will customize the ***Windows Terminal*** to integrate with ***Cmder*** to use ***Fira Code*** and ***Ligatures***. Is possible configure to TABS open a connection directy with other server machines.
+
+But in this moment I'll show how to customize, fonts, colors and  integrate with ***Cmder*** to you use the ***Unix*** commands in your ***Windows Terminal***.
+
+To customize your ***Windows Terminal*** type shortcurt **CTRL+,** (Control and comma). The ***settings.json*** file will be open. We will perform some configurations to customize the terminal.
+
+This is part of configuration that define the terminals that will be open.
+
+```json
+
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        
+```
+
+First we need generate a new ***guid*** to insert in configuration. Open PowerShell terminal and type ***New-Guid***, the command will return a code below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-19%20231513.png" alt="drawing" width="400"/>
+
+
+
+We will added some configuration now, see example below. This is my configuration of customization.
+
+```json
+
+            {
+                "guid": "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}",
+                "name": "Terminator",
+                "commandline": "%CMDER_ROOT%\\vendor\\git-for-windows\\bin\\bash.exe",
+                "startingDirectory": "%USERPROFILE%",
+                "icon": "%CMDER_ROOT%\\icons\\cmder_blue.ico",
+                "fontFace": "Fira Code",
+                "hidden": false,
+                "acrylicOpacity": 0.5,
+                "closeOnExit": true,
+                "cursorColor": "#7ef33a",
+                "cursorShape": "filledBox",
+                "background": "#2e3436",
+                "fontSize": 9,
+                "padding": "0, 0, 0, 0",
+                "snapOnInput": true,
+                "useAcrylic": true
+              }
+```
+
+The result of my configuration is.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-20%20225142.png" alt="drawing" width="400"/>
+
+
+With this my configuration when selected ***Cmder*** will open in **Bash** mode, with this is possible we configure **Bash** files to customize more commands in **Terminal**.
+
+To define your profile with default, add the **guid**  of your ***Cmder*** configuration below.
+
+```json
+"$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{f8ab8242-486d-4b8e-a20b-c039e856b7d9}",
+
+```
+
+After this configurationb above, when is open the ***Windows Terminal*** by default will open ***Cmder*** in Bash mode, now we can configure the Bash to use native in ***Windows*** with this given more power to user.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210122_070819.png" alt="drawing" width="400"/>
+
+
+Now we go to ***Bash*** configuration.
+
+
+
+
+
+
 ***THE END***
 
 ## References
@@ -146,3 +271,12 @@ Well done, the Java configuration is ok, if the your results are equals that the
 
 [More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
 
+[Git for Windows](https://git-scm.com/download/win)
+
+[Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
+
+[Windows Terminal Official DOC](https://docs.microsoft.com/en-us/windows/terminal/)
+
+[Windows Terminal More Customization](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31)
+
+[Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)

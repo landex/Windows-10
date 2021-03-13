@@ -641,7 +641,15 @@ https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the executi
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
 PS C:\Windows\system32>
 ```
+Testing ***Chocolatey*** in terminal with **Bash**.
 
+```bash
+[yourusername@yourcomputername][~]
+ λ chocolatey
+Chocolatey v0.10.15
+Please run 'choco -?' or 'choco <command> -?' for help menu.
+[yourusername@yourcomputername][~]
+```
 
 ***THE END***
 

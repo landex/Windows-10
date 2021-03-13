@@ -547,6 +547,101 @@ Now is time of ***Chocolatey***
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/chocolatey.png" alt="drawing" width="400"/>
 
+The first step before installation of ***Chocolatey*** you need change configuration of **PowerShell**.
+
+Run command below, to verify the polivy of **PowerShell**. First you can open **PowerShell** with **administrator** mode.
+
+```Batch
+PS C:\Windows\system32> Get-ExecutionPolicy
+Restricted
+PS C:\Windows\system32>
+```
+
+If you get the return above, you need change the configurations to install ***Chicilatey***. Run one of this command ***Set-ExecutionPolicy AllSigned*** or ***Set-ExecutionPolicy Bypass -Scope Process***.
+
+```batch
+PS C:\Windows\system32> Set-ExecutionPolicy AllSigned
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+PS C:\Windows\system32>
+```
+
+Now run this command. *Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))*
+
+```batch
+PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))                                                                               Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)                                        Getting latest version of the Chocolatey package for download.                                                          Not using proxy.                                                                                                        Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.                                       Downloading https://chocolatey.org/api/v2/package/chocolatey/0.10.15 to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+Not using proxy.
+Extracting C:\Users\landi\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall
+Installing Chocolatey on the local machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+WARNING: You can safely ignore errors related to missing log files when
+  upgrading from a version of Chocolatey less than 0.9.9.
+  'Batch file could not be found' is also safe to ignore.
+  'The system cannot find the file specified' - also safe.
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at
+'C:\Users\landi\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+PS C:\Windows\system32>
+```
+After isntallation to confirm if everything run command below.
+
+```batch
+PS C:\Windows\system32> choco
+Chocolatey v0.10.15
+Please run 'choco -?' or 'choco <command> -?' for help menu.
+PS C:\Windows\system32>
+```
+
+Now we will return the policy to restrict, run command below.
+
+```batch
+PS C:\Windows\system32> Set-ExecutionPolicy Restricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+PS C:\Windows\system32>
+```
+
+Testing if configuration was returned to **Restricted**.
+```PowerShell
+PS C:\Windows\system32> Set-ExecutionPolicy Restricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+PS C:\Windows\system32>
+```
+
 
 ***THE END***
 
@@ -609,3 +704,5 @@ Now is time of ***Chocolatey***
 [VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)
 
 [Chocolatey](https://chocolatey.org/)
+
+[Chocolatey Installation](https://chocolatey.org/install)

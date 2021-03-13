@@ -551,7 +551,7 @@ The first step before installation of ***Chocolatey*** you need change configura
 
 Run command below, to verify the polivy of **PowerShell**. First you can open **PowerShell** with **administrator** mode.
 
-```Batch
+```PowerShell
 PS C:\Windows\system32> Get-ExecutionPolicy
 Restricted
 PS C:\Windows\system32>
@@ -559,7 +559,7 @@ PS C:\Windows\system32>
 
 If you get the return above, you need change the configurations to install ***Chicilatey***. Run one of this command ***Set-ExecutionPolicy AllSigned*** or ***Set-ExecutionPolicy Bypass -Scope Process***.
 
-```batch
+```PowerShell
 PS C:\Windows\system32> Set-ExecutionPolicy AllSigned
 
 Execution Policy Change
@@ -572,7 +572,7 @@ PS C:\Windows\system32>
 
 Now run this command. *Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))*
 
-```batch
+```PowerShell
 PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))                                                                               Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)                                        Getting latest version of the Chocolatey package for download.                                                          Not using proxy.                                                                                                        Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.                                       Downloading https://chocolatey.org/api/v2/package/chocolatey/0.10.15 to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
 Not using proxy.
 Extracting C:\Users\landi\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall
@@ -610,7 +610,7 @@ PS C:\Windows\system32>
 ```
 After isntallation to confirm if everything run command below.
 
-```batch
+```PowerShell
 PS C:\Windows\system32> choco
 Chocolatey v0.10.15
 Please run 'choco -?' or 'choco <command> -?' for help menu.
@@ -619,7 +619,7 @@ PS C:\Windows\system32>
 
 Now we will return the policy to restrict, run command below.
 
-```batch
+```PowerShell
 PS C:\Windows\system32> Set-ExecutionPolicy Restricted
 
 Execution Policy Change

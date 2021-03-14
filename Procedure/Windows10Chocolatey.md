@@ -651,6 +651,83 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 [yourusername@yourcomputername][~]
 ```
 
+Commands to help you to use chocolatey.
+
+* ***search*** - searches remote or local packages (alias for list)
+* ***list*** - lists remote or local packages
+* ***find*** - searches remote or local packages (alias for search)
+* ***info*** - retrieves package information. Shorthand for choco search pkgname --exact --verbose
+* ***install*** - installs packages from various sources
+* ***pin*** - suppress upgrades for a package
+* ***outdated*** - retrieves packages that are outdated. Similar to upgrade all --noop
+* ***upgrade*** - upgrades packages from various sources
+* ***uninstall*** - uninstalls a package
+* ***pack*** - packages up a nuspec to a compiled nupkg
+* ***push*** - pushes a compiled nupkg
+* ***new*** - generates files necessary for a chocolatey package from a template
+* ***source*** - view and configure default sources
+* ***sources*** - view and configure default sources (alias for source)
+* ***config*** - Retrieve and configure config file settings
+* ***feature*** - view and configure choco features
+* ***features*** - view and configure choco features (alias for feature)
+* ***setapikey*** - retrieves, saves or deletes an apikey for a particular source (alias for apikey)
+* ***apikey*** - retrieves, saves or deletes an apikey for a particular source
+* ***unpackself*** - have chocolatey set itself up
+* ***version*** - [DEPRECATED] will be removed in v1 - use choco outdated or cup <pkg|all> -whatif instead
+* ***update*** - [DEPRECATED] RESERVED for future use (you are looking for upgrade, these are not the droids you are looking for)
+* ***support*** - provides support information
+* ***download*** - downloads packages - optionally internalizing all remote resources
+* ***synchronize*** - synchronizes against system installed software - generates missing packages
+* ***sync*** - synchronizes against system installed software - generates missing packages
+* ***optimize*** - optimizes installation, reducing space usage
+
+***Please run chocolatey with choco command -help for specific help on each command.***
+
+:memo: To use **chocolatey** command to, is good you use terminal with **Adminstrator** level.
+
+## Ruby
+
+Installing ***Ruby*** using **choco** command.
+
+```shell
+[yourusername@yourcomputername][~]
+ λ choco install ruby
+Chocolatey v0.10.15
+Installing the following packages:
+ruby
+By installing you accept licenses for the packages.
+Progress: Downloading chocolatey-core.extension 1.3.5.1... 100%
+Progress: Downloading ruby 3.0.0.1... 100%
+
+chocolatey-core.extension v1.3.5.1 [Approved]
+chocolatey-core.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-core extensions.
+ The install of chocolatey-core.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+
+ruby v3.0.0.1 [Approved]
+ruby package files install completed. Performing other installation steps.
+The package ruby wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Ruby is going to be installed in 'C:\tools\ruby30'
+Installing 64-bit ruby...
+ruby has been installed.
+  ruby can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of ruby was successful.
+  Software installed to 'C:\tools\ruby30\'
+
+Chocolatey installed 2/2 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+[yourusername@yourcomputername][~]
+```
+
+
 ***THE END***
 
 ## References
@@ -714,3 +791,13 @@ Please run 'choco -?' or 'choco <command> -?' for help menu.
 [Chocolatey](https://chocolatey.org/)
 
 [Chocolatey Installation](https://chocolatey.org/install)
+
+[Chocolatey Commands](https://docs.chocolatey.org/en-us/choco/commands/)
+
+[Ruby Official](https://www.ruby-lang.org/en/)
+
+[Python Official](https://www.python.org/)
+
+[Jupyter Notebook](https://jupyter.org/)
+
+[Jupyter Installation](https://jupyter.org/install)

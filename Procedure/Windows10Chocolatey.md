@@ -23,6 +23,10 @@ After this you can use the Fira Code in all applications compatibles included th
 
 ### Visual Studio Code
 
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/visual_studio_logo_20210314.png" alt="drawing" width="200"/>
+
+
 So for me is the best editor of present, during when I type this file.  :stuck_out_tongue_closed_eyes:
 
 The Installation is the classic of Windows next :arrow_right: next :arrow_right: Finishing!

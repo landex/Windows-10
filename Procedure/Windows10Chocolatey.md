@@ -1047,7 +1047,56 @@ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 [yourusername@yourcomputername][~]
 ```
 
-***THE END***
+Testing **Node**, to verify the version after installation.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ node -v
+v15.11.0
+[yourusername@yourcomputername][~]
+```
+
+Now we will testing a code in **NodeJS** to confirm that everything are ok.
+
+In your preferred directory create a ***.js*** file in my example I creted a file **server_testing.js**. See code below, the code I copy from Node site.
+
+```js
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = '3000';
+
+const server = http.createServer((req,res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World!\n');
+});
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`)
+});
+```
+
+After created the file, run command ***node*** + file name see exemple below.
+
+```bash
+[yourusername@yourcomputername][~/Documents/Programming/JS/node]
+λ node server_testing.js
+Server running at http://127.0.0.1:3000/
+```
+
+To validate that the code works as expected, open you brownse in this address ***http://127.0.0.1:3000/*** the expected result is this.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/Screenshot_20210314_182958.png" alt="drawing" width="400"/>
+
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/the_end.jpg" alt="drawing" width="400"/>
+
+
 
 ## References
 
@@ -1124,3 +1173,5 @@ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 [Node Official Documentation](https://nodejs.org/en/docs/)
 
 [Node Choco Installation](https://chocolatey.org/packages/nodejs.install)
+
+[Node Getting Started](https://nodejs.org/en/docs/guides/getting-started-guide/)

@@ -998,6 +998,55 @@ Your brownser will open the URL ***http://localhost:8888/tree***.
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210227_102314.png" alt="drawing" width="400"/>
 
 
+### NodeJS
+
+The last thing in this tutorial (in this moment) the ***NodeJS**.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/node_js_log.jpg" alt="drawing" width="100"/>
+
+
+So usign the ***Chocolatey*** we run command below to install **NodeJS**.
+
+```bash
+[yourusername@yourcomputername][~]
+choco install nodejs.install
+[yourusername@yourcomputername][~]
+```
+
+Installation details, after  installation is necessary your close and open your terminal again.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ choco install nodejs.install
+Chocolatey v0.10.15
+Installing the following packages:
+nodejs.install
+By installing you accept licenses for the packages.
+Progress: Downloading nodejs.install 15.11.0... 100%
+
+nodejs.install v15.11.0 [Approved]
+nodejs.install package files install completed. Performing other installation steps.
+The package nodejs.install wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Installing 64 bit version
+Installing nodejs.install...
+nodejs.install has been installed.
+nodejs.install may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+see the changes (or in powershell/cmd.exe just type `refreshenv`).
+The install of nodejs.install was successful.
+Software installed as 'msi', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+[yourusername@yourcomputername][~]
+```
+
 ***THE END***
 
 ## References
@@ -1071,3 +1120,7 @@ Your brownser will open the URL ***http://localhost:8888/tree***.
 [Jupyter Notebook](https://jupyter.org/)
 
 [Jupyter Installation](https://jupyter.org/install)
+
+[Node Official Documentation](https://nodejs.org/en/docs/)
+
+[Node Choco Installation](https://chocolatey.org/packages/nodejs.install)

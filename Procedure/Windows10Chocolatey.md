@@ -708,7 +708,7 @@ Commands to help you to use chocolatey.
 
 :memo: To use **chocolatey** command to, is good you use terminal with **Adminstrator** level.
 
-## Ruby
+## Ruby :diamonds: :diamonds:
 
 Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation.
 
@@ -776,7 +776,7 @@ ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
  <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_071051.png" alt="drawing" width="400"/>
  
   
- ## Python
+ ## Python :snake: :snake:
  
  The ***Python*** is a other best programming language of world, and now this language stay in *hyper* around the world.
  

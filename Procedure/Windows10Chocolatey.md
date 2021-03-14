@@ -810,8 +810,8 @@ chocolatey-windowsupdate.extension package files install completed. Performing o
  Installed/updated chocolatey-windowsupdate extensions.
  The install of chocolatey-windowsupdate.extension was successful.
   Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate'
-
-:heavy_check_mark: KB3035131 v1.0.3 [Approved]
+```
+:heavy_check_mark: ```bash KB3035131 v1.0.3 [Approved]
 kb3035131 package files install completed. Performing other installation steps.
 The package KB3035131 wants to run 'ChocolateyInstall.ps1'.
 Note: If you don't run this script, the installation will fail.

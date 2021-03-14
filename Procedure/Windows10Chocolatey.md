@@ -941,6 +941,39 @@ The recent package changes indicate a reboot is necessary.
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_163204.png" alt="drawing" width="400"/>
 
 
+## Jupyter Notebook
+
+I like programming in Python and I like the Jupyter Notebook, to install the Jupyter Noebook run command below.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ pip install notebook
+```
+After installation run command below to verify if ok, to testing Interactive Python.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ ipython
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.21.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:
+``` 
+To run ***Jupyter Notebook*** run command below.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ jupyter notebook
+[I 10:19:33.024 NotebookApp] Writing notebook server cookie secret to C:\Users\username\AppData\Roaming\jupyter\runtime\notebook_cookie_secret
+```
+
+Your brownser will open the URL ***http://localhost:8888/tree***.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210227_102314.png" alt="drawing" width="400"/>
+
+
 ***THE END***
 
 ## References

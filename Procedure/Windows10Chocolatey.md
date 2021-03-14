@@ -73,11 +73,7 @@ After complete the configuration, save the ***json*** file and testing, see resu
 
 The configuration done to Visual Studio Code.
 
-### Java
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/javaj_logo.png" alt="drawing" width="100"/>
-
+### Java :coffee: 
 
 Java is the most popular programming language of world, as is most used to access some applications too. Below I'll show you how to configure **Java** in Windows 10.
 
@@ -263,7 +259,9 @@ Now we go to ***Bash*** configuration, to customize your ***Bash*** commands.
 
 ### The Bash !!!
 
+
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/bash_logo_one.png" alt="drawing" width="150"/>
+
 
 **Bash** (Bourne-Again SHell) is a Unix shell and command language written by Brian Fox for the GNU Project as a free software. In this proceure, after configure de Windows Terminal, now is time to configure the ***Bash***.
 

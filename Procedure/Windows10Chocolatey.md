@@ -76,7 +76,7 @@ The configuration done to Visual Studio Code.
 ### Java
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/javaj_logo.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/javaj_logo.png" alt="drawing" width="100"/>
 
 
 Java is the most popular programming language of world, as is most used to access some applications too. Below I'll show you how to configure **Java** in Windows 10.

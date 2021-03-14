@@ -575,7 +575,7 @@ Now run this command. *Set-ExecutionPolicy Bypass -Scope Process -Force; [System
 ```PowerShell
 PS C:\Windows\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))                                                                               Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)                                        Getting latest version of the Chocolatey package for download.                                                          Not using proxy.                                                                                                        Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.                                       Downloading https://chocolatey.org/api/v2/package/chocolatey/0.10.15 to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
 Not using proxy.
-Extracting C:\Users\landi\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall
+Extracting C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\yourusername\AppData\Local\Temp\chocolatey\chocoInstall
 Installing Chocolatey on the local machine
 Creating ChocolateyInstall as an environment variable (targeting 'Machine')
   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
@@ -598,7 +598,7 @@ chocolatey.nupkg file not installed in lib.
  Attempting to locate it from bootstrapper.
 PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
 WARNING: Not setting tab completion: Profile file does not exist at
-'C:\Users\landi\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+'C:\Users\yourusername\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
 Chocolatey (choco.exe) is now ready.
 You can call choco from anywhere, command line or powershell by typing choco.
 Run choco /? for a list of functions.
@@ -687,7 +687,17 @@ Commands to help you to use chocolatey.
 
 ## Ruby
 
+Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation.
+
 Installing ***Ruby*** using **choco** command.
+
+```bash
+[yourusername@yourcoputername][~]
+choco install ruby
+[yourusername@yourcoputername][~]
+```
+
+The output during **Ruby** installation.
 
 ```shell
 [yourusername@yourcomputername][~]
@@ -726,6 +736,209 @@ Chocolatey installed 2/2 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 [yourusername@yourcomputername][~]
 ```
+
+Verify that the version of **Ruby** installed is the 3.0.
+
+```bash
+[yourusername@yourcoputername][~]
+ λ ruby -v
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
+[yourusername@yourcoputername][~]
+ λ
+ ```
+ 
+ Trying the ***irb***.
+ 
+ 
+ <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_071051.png" alt="drawing" width="400"/>
+ 
+  
+ ## Python
+ 
+ The ***Python*** is a other best programming language of world, and now this language stay in *hyper* around the world.
+ 
+ Run command to install **Python**
+ 
+ ```bash
+ [yourusername@yourcoputername][~]
+ λ choco install python
+ [yourusername@yourcoputername][~]
+ ```
+ 
+ Output of **Python** installation. Pay attention that during installation, some interaction is need, to install python correctly in **Windows** using ***Chocoloatey***.
+ 
+ ```bash
+ [yourusername@yourcoputername][~]
+ λ choco install python
+Chocolatey v0.10.15
+Installing the following packages:
+python
+By installing you accept licenses for the packages.
+Progress: Downloading python3 3.9.2... 100%
+Progress: Downloading vcredist2015 14.0.24215.20170201... 100%
+Progress: Downloading vcredist140 14.28.29910... 100%
+Progress: Downloading KB3033929 1.0.5... 100%
+Progress: Downloading chocolatey-windowsupdate.extension 1.0.4... 100%
+Progress: Downloading KB3035131 1.0.3... 100%
+Progress: Downloading KB2919355 1.0.20160915... 100%
+Progress: Downloading KB2919442 1.0.20160915... 100%
+Progress: Downloading KB2999226 1.0.20181019... 100%
+Progress: Downloading python 3.9.2... 100%
+
+chocolatey-windowsupdate.extension v1.0.4 [Approved]
+chocolatey-windowsupdate.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-windowsupdate extensions.
+ The install of chocolatey-windowsupdate.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate'
+
+:heavy_check_mark: KB3035131 v1.0.3 [Approved]
+kb3035131 package files install completed. Performing other installation steps.
+The package KB3035131 wants to run 'ChocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Skipping installation because update KB3035131 does not apply to this operating system (Microsoft Windows 10 Home).
+ The install of kb3035131 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+KB3033929 v1.0.5 [Approved]
+kb3033929 package files install completed. Performing other installation steps.
+The package KB3033929 wants to run 'ChocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Skipping installation because update KB3033929 does not apply to this operating system (Microsoft Windows 10 Home).
+ The install of kb3033929 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+KB2919442 v1.0.20160915 [Approved]
+kb2919442 package files install completed. Performing other installation steps.
+The package KB2919442 wants to run 'ChocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of kb2919442 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+KB2919355 v1.0.20160915 [Approved]
+kb2919355 package files install completed. Performing other installation steps.
+The package KB2919355 wants to run 'ChocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of kb2919355 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+KB2999226 v1.0.20181019 [Approved] - Possibly broken
+kb2999226 package files install completed. Performing other installation steps.
+The package KB2999226 wants to run 'chocolateyinstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Skipping installation because update KB2999226 does not apply to this operating system (Microsoft Windows 10 Home).
+ The install of kb2999226 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+vcredist140 v14.28.29910 [Approved]
+vcredist140 package files install completed. Performing other installation steps.
+The package vcredist140 wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Downloading vcredist140-x86
+  from 'https://download.visualstudio.microsoft.com/download/pr/d64b93c3-f270-4750-9e75-bc12b2e899fb/4521ED84B9B1679A706E719423D54EF5E413DC50DDE1CF362232D7359D7E89C4/VC_redist.x86.exe'
+Progress: 100% - Completed download of C:\Users\yourusername\AppData\Local\Temp\chocolatey\vcredist140\14.28.29910\VC_redist.x86.exe (13.65 MB).
+Download of VC_redist.x86.exe (13.65 MB) completed.
+Hashes match.
+Installing vcredist140-x86...
+vcredist140-x86 has been installed.
+Downloading vcredist140-x64 64 bit
+  from 'https://download.visualstudio.microsoft.com/download/pr/cd3a705f-70b6-46f7-b8e2-63e6acc5bd05/F299953673DE262FEFAD9DD19BFBE6A5725A03AE733BEBFEC856F1306F79C9F7/VC_redist.x64.exe'
+Progress: 100% - Completed download of C:\Users\yourusername\AppData\Local\Temp\chocolatey\vcredist140\14.28.29910\VC_redist.x64.exe (14.18 MB).
+Download of VC_redist.x64.exe (14.18 MB) completed.
+Hashes match.
+Installing vcredist140-x64...
+vcredist140-x64 has been installed.
+  vcredist140 may be able to be automatically uninstalled.
+ The install of vcredist140 was successful.
+  Software installed as 'exe', install location is likely default.
+
+vcredist2015 v14.0.24215.20170201 [Approved]
+vcredist2015 package files install completed. Performing other installation steps.
+ The install of vcredist2015 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+python3 v3.9.2 [Approved]
+python3 package files install completed. Performing other installation steps.
+The package python3 wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): y
+
+Installing 64-bit python3...
+python3 has been installed.
+Python installed to: 'C:\Python39'
+Restricting write permissions to Administrators
+  python3 can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of python3 was successful.
+  Software installed as 'exe', install location is likely default.
+
+python v3.9.2 [Approved]
+python package files install completed. Performing other installation steps.
+ The install of python was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+Chocolatey installed 10/10 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Installed:
+ - kb2919355 v1.0.20160915
+ - python v3.9.2
+ - kb3033929 v1.0.5
+ - kb2999226 v1.0.20181019
+ - python3 v3.9.2
+ - vcredist2015 v14.0.24215.20170201
+ - kb2919442 v1.0.20160915
+ - vcredist140 v14.28.29910
+ - kb3035131 v1.0.3
+ - chocolatey-windowsupdate.extension v1.0.4
+
+Packages requiring reboot:
+ - vcredist140 (exit code 3010)
+
+The recent package changes indicate a reboot is necessary.
+ Please reboot at your earliest convenience.
+[yourusername@yourcoputername][~]
+ ```
+ 
+ Testing the Python Installation. In your ***Windows Terminal*** type ***python***.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_163204.png" alt="drawing" width="400"/>
 
 
 ***THE END***

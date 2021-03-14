@@ -263,6 +263,8 @@ Now we go to ***Bash*** configuration, to customize your ***Bash*** commands.
 
 ### The Bash !!!
 
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/bash_logo_one.png" alt="drawing" width="150"/>
+
 **Bash** (Bourne-Again SHell) is a Unix shell and command language written by Brian Fox for the GNU Project as a free software. In this proceure, after configure de Windows Terminal, now is time to configure the ***Bash***.
 
 But before start the configuration, you will see the same details of configurations.
@@ -389,7 +391,7 @@ yourusername@yourcomputername ~
 
 The following table lists the possible placeholders that can be used in the PS1 variable:
 
-**placeholders:**
+**Placeholders:**
 
 | Code | Effect                                                    |
 |------|-----------------------------------------------------------|
@@ -523,6 +525,10 @@ The output after this configurations.
 
 ### VIM
 
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/vim_logo.png" alt="drawing" width="100"/>
+
+
 So now we will configure the ***vim***, by defaul when your install ***Cmder*** the ***vim*** comming too. Some times is necessary edit some small file, in local machine or in server, in this case is better user ***vim***. We will create a ***.vimrc*** to insert some configuraitons.
 
 Creating the ***.vimrc*** file in your home directory.
@@ -561,6 +567,7 @@ Now is time of ***Chocolatey***
 
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/chocolatey.png" alt="drawing" width="400"/>
+
 
 The first step before installation of ***Chocolatey*** you need change configuration of **PowerShell**.
 
@@ -957,6 +964,10 @@ Testing the Python Installation. In your ***Windows Terminal*** type ***python**
 
 
 ## Jupyter Notebook
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/jupyter_notebook.png" alt="drawing" width="100"/>
+
 
 I like programming in Python and I like the Jupyter Notebook, to install the Jupyter Noebook run command below.
 

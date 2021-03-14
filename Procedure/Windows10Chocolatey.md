@@ -3,9 +3,13 @@
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/win_10_choco_20210310_082401.jpg" alt="drawing" width="400"/>
 
 
-Windows 10 with Chocolatey, is the new procedure to use Windows 10 with Chocolatey package manage.
+Windows 10 with Chocolatey, is the new procedure to use Windows 10 with Chocolatey package manage. Some things I'll install manually to show how works manual installation famous :arrow_right: :arrow_right: and finish.
 
 ### Fira Code
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/fira_code.png" alt="drawing" width="400"/>
+
 
 I said in the past, for me is the best font to development, and to work in terminal.
 

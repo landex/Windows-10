@@ -75,6 +75,10 @@ The configuration done to Visual Studio Code.
 
 ### Java
 
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/javaj_logo.png" alt="drawing" width="400"/>
+
+
 Java is the most popular programming language of world, as is most used to access some applications too. Below I'll show you how to configure **Java** in Windows 10.
 
 First step perform the download of [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html#license-lightbox) , we will use the JDK 11 LTS. Make download of **Java.exe** run classical installation... Next...Next... Finishi!!!
@@ -140,6 +144,10 @@ Well done, the Java configuration is ok, if the your results are equals that the
 
 ## Git
 
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/git_logo.png" alt="drawing" width="200"/>
+
+
 Now we will install the git, and we will use the git-bash to configure the best terminal ever of ***Microsoft*** first step make download of [Git}(https://git-scm.com/download/win).
 
 In this moment we use the tipical installation, and someome ask where is chocolatey??? Wait! Wait! After the terminal configuration we will install the chocolatey, please wait!!! The instalation of Git you select the default configurations, next, next, and finish!!!
@@ -147,6 +155,10 @@ In this moment we use the tipical installation, and someome ask where is chocola
 After installation now we will go to the best terminal of **Windows**.
 
 ### Windows Terminal
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/new_windows_terminal.png" alt="drawing" width="200"/>
+
 
 The best thing that happened in 2019 was the Windows Terminal launch... Awesome!!! Install Windows terminal from the MS Store.
 

@@ -34,3 +34,6 @@ In the future section of this procedure, we will configure **Visual Studio Code*
 So for me is the best editor/IDE for the programming of past, present, and future. :stuck_out_tongue closed eyes:
 
 You can install the **Visual Studio Code** make the download in [VSCode Download](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user).
+
+The installation is the classic ***next,next,next and finish***. After the installation, we can configure de **Fira Code** and **Ligatures** see examples of the configuration below. 
+

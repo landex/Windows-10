@@ -558,9 +558,7 @@ Ruby, is a good programming language to testing automation in my opinion, automa
 The installation is a classic but I prefer custom, see below the options that I use.
 
 
-
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210204_224042.png" alt="drawing" width="400"/>
-
 
 
 The classic Next and Install.
@@ -568,9 +566,7 @@ The classic Next and Install.
 This window will be open, only close because, is not need select any value.
 
 
-
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210204_224456.png" alt="drawing" width="400"/>
-
 
 
 After installation we run command below in your **Windows Terminal** and validate that ***Ruby*** work's.
@@ -584,14 +580,10 @@ ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
 Try the ***irb***.
 
 
-
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_071051.png" alt="drawing" width="400"/>
 
 
-
-
-
-### Python
+### Python :snake: :snake: :snake:
 
 The ***Python*** is a other best programming language of world, and now this language stay in *hyper* around the world.
 
@@ -736,6 +728,8 @@ Your brownser will open the URL ***http://localhost:8888/tree***.
 [Ruby Official](https://www.ruby-lang.org/en/)
 
 [Python Official](https://www.python.org/)
+
+[Installing Python in Windows](https://docs.python.org/3/using/windows.html)
 
 [Jupyter Notebook](https://jupyter.org/)
 

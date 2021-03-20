@@ -15,9 +15,10 @@ The idea of this procedure is to show who some configurations could help to use 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/fira_code.png" alt="drawing" width="300"/>
 
 
-We will start with font, and for me after discovering last year (2020) the **Fira Code** with **ligatures** is the best font for me. To install we will use the classic Windows installation. You can make download this link [Fira Code Download](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip).
+We will start with font, and for me after discovering last year (2020) the **Fira Code** with **ligatures** is the best font for me. To install we will use the classic Windows installation. You can make download this link [Fira Code](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip).
 
 After the download is done, to install **Fira Code**, you need to access the ***Fira_Code_v5.2\ttf*** and select all fonts, and select to install for all users, equals screen shoot below.
+
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/New_Images/Install_fonts_20210317_221238.png" alt="drawing" width="300"/>
 
@@ -33,7 +34,7 @@ In the future section of this procedure, we will configure **Visual Studio Code*
 
 So for me is the best editor/IDE for the programming of past, present, and future. :stuck_out_tongue closed eyes:
 
-You can install the **Visual Studio Code** make the download in [VSCode Download](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user).
+You can install the **Visual Studio Code** make the download in [VSCode](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user).
 
 The installation is the classic ***next,next,next and finish***. After the installation, we can configure de **Fira Code** and **Ligatures** see examples of the configuration below. 
 
@@ -112,7 +113,6 @@ C:\Users\yourusername>java -version
 java version "11.0.10" 2021-01-19 LTS
 Java(TM) SE Runtime Environment 18.9 (build 11.0.10+8-LTS-162)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.10+8-LTS-162, mixed mode)
-
 C:\Users\yourusername>
 ```
 
@@ -550,6 +550,133 @@ After this see the result below.
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_121754.png" alt="drawing" width="400"/>
 
+
+### Ruby
+
+Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation. I'll testing the Ruby 3.0, in official web site, in download sections I prefer install the ***Ruby 3.0.0-1(x64)*** more downloads options in this link -> [RUBY](https://rubyinstaller.org/downloads/).
+
+The installation is a classic but I prefer custom, see below the options that I use.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210204_224042.png" alt="drawing" width="400"/>
+
+
+
+The classic Next and Install.
+
+This window will be open, only close because, is not need select any value.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210204_224456.png" alt="drawing" width="400"/>
+
+
+
+After installation we run command below in your **Windows Terminal** and validate that ***Ruby*** work's.
+
+```bash
+[yourusername@yourcomputername][~] ruby -v
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x64-mingw32]
+[yourusername@yourcomputername][~]
+```
+
+Try the ***irb***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_071051.png" alt="drawing" width="400"/>
+
+
+
+
+
+### Python
+
+The ***Python*** is a other best programming language of world, and now this language stay in *hyper* around the world.
+
+The installation in **Windows** is the classic instalation, the famous next next finish.
+
+But I prefer some customization in my installation, see prints below.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161420.png" alt="drawing" width="400"/>
+
+
+
+Select the all otions and click in ***Customize Installation***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161506.png" alt="drawing" width="400"/>
+
+
+
+In this window, verify if all options are selected, to proced with installation.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_161723.png" alt="drawing" width="400"/>
+
+
+
+Now in window **Advanced Options** select all option and select the path that you will install the python, I will use ***C:\MyApps\Python39***, now proced with installation.
+
+In this window select to **Disable Path Lenght Limit**
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_162735.png" alt="drawing" width="400"/>
+
+
+
+Testing the Python Installation. In your ***Windows Terminal*** type ***python***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210205_163204.png" alt="drawing" width="400"/>
+
+
+
+### Jupyter Notebook
+
+I like programming in Python and I like the Jupyter Notebook, to install the Jupyter Noebook run command below.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ pip install notebook
+```
+After installation run command below to verify if ok, to testing Interactive Python.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ ipython
+Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.21.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:
+``` 
+To run ***Jupyter Notebook*** run command below.
+
+```bash
+[yourusername@yourcomputername][~]
+ λ jupyter notebook
+[I 10:19:33.024 NotebookApp] Writing notebook server cookie secret to C:\Users\username\AppData\Roaming\jupyter\runtime\notebook_cookie_secret
+```
+
+Your brownser will open the URL ***http://localhost:8888/tree***.
+
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210227_102314.png" alt="drawing" width="400"/>
+
+
+
+
+**THE END**
+
 ## References
 
 [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
@@ -605,7 +732,6 @@ After this see the result below.
 [VIM offical Documentation](https://www.vim.org/docs.php)
 
 [VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)
-
 
 [Ruby Official](https://www.ruby-lang.org/en/)
 

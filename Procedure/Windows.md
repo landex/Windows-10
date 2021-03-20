@@ -551,7 +551,7 @@ After this see the result below.
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot_20210131_121754.png" alt="drawing" width="400"/>
 
 
-### Ruby
+### Ruby :diamonds: :diamonds: :diamonds:
 
 Ruby, is a good programming language to testing automation in my opinion, automation of APIS testing and Web Interface automation. I'll testing the Ruby 3.0, in official web site, in download sections I prefer install the ***Ruby 3.0.0-1(x64)*** more downloads options in this link -> [RUBY](https://rubyinstaller.org/downloads/).
 

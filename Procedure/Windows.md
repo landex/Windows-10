@@ -534,13 +534,13 @@ After this we will insert some configuration in your ***.vimrc*** file.
 * Enable syntax highlights
 
 ```bash
-[yourusername@yourcomputername][~] ehco 'syntax on' >> .vimrc
+[yourusername@yourcomputername][~] echo 'syntax on' >> .vimrc
 ```
 
 * Enbale number of lines
 
 ```bash
-[yourusername@yourcomputername][~] ehco 'set number' >> .vimrc
+[yourusername@yourcomputername][~] echo 'set number' >> .vimrc
 ```
 
 In this link have more customization to [vimrc file](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.) file you can see if you can perform more configuration.
@@ -562,3 +562,46 @@ After this see the result below.
 
 [More About Setx Win Variables](https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp/832962#832962)
 
+[Git for Windows](https://git-scm.com/download/win)
+
+[Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
+
+[Windows Terminal Official DOC](https://docs.microsoft.com/en-us/windows/terminal/)
+
+[Windows Terminal More Customization](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31)
+
+[Windows Terminal More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
+
+[GNU Bash Manual](https://www.gnu.org/software/bash/)
+
+[Bash Man Page](https://linux.die.net/man/1/bash)
+
+[Bash Wikipedia](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+
+[Bash Archlinux](https://wiki.archlinux.org/index.php/bash)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Profile Vs Bashrc](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+
+[ANSI Scape Code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
+[PS1 and PS2](https://linuxconfig.org/bash-prompt-basics)
+
+[Bash Gentoo](https://wiki.gentoo.org/wiki/Bash)
+
+[Bash Colors and Formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+
+[Bash Prompt Customization](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
+
+[VI Cheat Sheet](https://catonmat.net/ftp/bash-vi-editing-mode-cheat-sheet.pdf)
+
+[Colors during LS commands](https://www.cyberciti.biz/faq/how-to-turn-on-or-off-colors-in-bash/)
+
+[Colors in command grep](https://landoflinux.com/linux_alias_functions.html)
+
+[MAN Page LS](https://linuxcommand.org/lc3_man_pages/ls1.html)
+
+[VIM offical Documentation](https://www.vim.org/docs.php)
+
+[VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)

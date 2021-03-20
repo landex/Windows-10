@@ -25,7 +25,7 @@ After the download is done, to install **Fira Code**, you need to access the ***
 In the future section of this procedure, we will configure **Visual Studio Code** and **Terminal** to use **Fira Code**, but you can use the fonts in other preferred programs for example ***Office Package***.
 
 
-### Visual Studio Code :memo: :memo: :memo:
+### Visual Studio Code
 
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/visual_studio_logo_20210314.png" alt="drawing" width="200"/>
@@ -125,6 +125,19 @@ C:\Users\yourusername>
 ```
 
 Well done, the Java configuration is ok, if the your results are equals that the displayed above.
+
+## Git 
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/win_and_choco/git_logo.png" alt="drawing" width="200"/>
+
+
+Now we will install the git, and we will use the git-bash to configure the best terminal ever of ***Microsoft*** first step make download of [Git}(https://git-scm.com/download/win).
+
+In this moment we use the tipical installation, the instalation of Git you select the default configurations, next, next, and finish!!!
+
+After installation now we will go to the best terminal of **Windows**.
+
 
 ## References
 

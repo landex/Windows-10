@@ -37,3 +37,31 @@ You can install the **Visual Studio Code** make the download in [VSCode Download
 
 The installation is the classic ***next,next,next and finish***. After the installation, we can configure de **Fira Code** and **Ligatures** see examples of the configuration below. 
 
+To open the configuration file press the command ***CONTROL+,(COMMA)***.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-16%20220234.png" alt="drawing" width="400"/>
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-16%20220516.png" alt="drawing" width="400"/>
+
+
+When file is open the configuration below will be displayed.
+
+```json
+{
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12
+}
+```
+
+After complete the configuration, save the ***json*** file and testing, see result below.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-16%20222612.png" alt="drawing" width="400"/>
+
+
+The configuration done to Visual Studio Code.

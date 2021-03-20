@@ -605,3 +605,12 @@ After this see the result below.
 [VIM offical Documentation](https://www.vim.org/docs.php)
 
 [VIMRC options](https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/#:~:text=The%20%E2%80%9Cvimrc%E2%80%9D%20Vim%20resource,%24HOME%E2%80%9D%20for%20your%20system.)
+
+
+[Ruby Official](https://www.ruby-lang.org/en/)
+
+[Python Official](https://www.python.org/)
+
+[Jupyter Notebook](https://jupyter.org/)
+
+[Jupyter Installation](https://jupyter.org/install)

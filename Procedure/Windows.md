@@ -61,7 +61,7 @@ When file is open the configuration below will be displayed.
 After complete the configuration, save the ***json*** file and testing, see result below.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-16%20222612.png" alt="drawing" width="200"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/Screenshot%202021-01-16%20222612.png" alt="drawing" width="300"/>
 
 
 The configuration done to Visual Studio Code.

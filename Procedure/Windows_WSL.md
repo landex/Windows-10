@@ -50,8 +50,67 @@ sudo zypper install zsh
 Run command below to set the default shell
 
 ```bash
-chsh -s $(which zsh)
+sudo usermod -s /usr/bin/zsh $(whoami)
 ```
+
+After this is necessary close and open terminal, due we not have reboot when using WSL. After close and open the window below will be appear.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/ZSH_01_20210331_215400.png" alt="drawing" width="400"/>
+
+
+### HISTORY
+
+* Select the option **1**, in this window to start the configuration. My configuration is this, after selected the defaults configurations.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/ZSH_HIST_20210331_221200.png" alt="drawing" width="400"/>
+
+
+### COMPLETION
+
+* Select the option **2** and click **ENTER**, to start de configurartion, select only option **1**.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/ZSH_COMP_20210331_221501.png" alt="drawing" width="400"/>
+
+
+
+### EDITING COMMAND LINES
+
+* Select the option **3** and ***1*** in next window and ***v***.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/ZSH_EDIT_20210331_221901.png" alt="drawing" width="400"/>
+
+
+After the configuration above, select option **4** and turn on all features, the configuration stay equals.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/ZSH_FEATURES_20210331_222401.png" alt="drawing" width="400"/>
+
+
+When returned to main window, type **0** to confirm all changes.
+
+A ***.zshrc*** file will be created in your home directory
+
+```bash
+cat .zshrc
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory autocd beep extendedglob nomatch notify
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/yourusername/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+```
+
 
 
 ### References

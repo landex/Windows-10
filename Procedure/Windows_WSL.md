@@ -33,7 +33,26 @@ After proced with the classical instalation, you will select your **Linux** flav
 
 The **Open Suse** configuoration, in below lines have  my configuration to use ***Open Suse*** with **WSL2**.
 
-![Custom badge](https://img.shields.io/badge?color=white&label=OpenSuse&logo=opensuse&logoColor=green&style=for-the-badge)
+## Open Suse
+
+After installation the first command to run, when you open the **Suse** run command below to install updates.
+
+```bash
+sudo zypper refresh && sudo zypper update
+```
+
+After installing the updates, now we will install the **ZSHELL**.
+
+```bash
+sudo zypper install zsh
+```
+
+Run command below to set the default shell
+
+```bash
+chsh -s $(which zsh)
+```
+
 
 ### References
 
@@ -44,4 +63,6 @@ The **Open Suse** configuoration, in below lines have  my configuration to use *
 [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
 
 [OpenSuse Documentation](https://doc.opensuse.org/)
+
+[Installing ZSH OpenSuse](https://thecodersblog.com/installing-zsh-oh-my-zsh-on-linux/)
 

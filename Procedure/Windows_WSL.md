@@ -18,13 +18,23 @@ After proced with the classical instalation, you will select your **Linux** flav
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/suse_20210330_222531.png" alt="drawing" width="400"/>
 
 
-* Option in **Windows Terminal**
+* Option in **Windows Terminal**, about the **Window Terminal** you can configure see details [here](https://github.com/landex/Windows-10/blob/main/Procedure/Windows.md).
 
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/Suse2_20210330_222646.png" alt="drawing" width="400"/>
 
 
-About the **Window Terminal** you can configure 
+* The **OpenSuse** opened
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Images/WindowsWSL/suse_open_20210331_212324.png" alt="drawing" width="400"/>
+
+
+
+The **Open Suse** configuoration, in below lines have  my configuration to use ***Open Suse*** with **WSL2**.
+
+![Custom badge](https://img.shields.io/endpoint?color=white&label=OpenSuse&logo=opensuse&logoColor=green&style=for-the-badge)
+
 ### References
 
 [Docker](https://docs.docker.com/docker-for-windows/install/)

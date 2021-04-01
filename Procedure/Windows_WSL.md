@@ -33,7 +33,7 @@ After proced with the classical instalation, you will select your **Linux** flav
 
 The **Open Suse** configuoration, in below lines have  my configuration to use ***Open Suse*** with **WSL2**.
 
-![Custom badge](https://img.shields.io/endpoint?color=white&label=OpenSuse&logo=opensuse&logoColor=green&style=for-the-badge)
+![Custom badge](https://img.shields.io/badge?color=white&label=OpenSuse&logo=opensuse&logoColor=green&style=for-the-badge)
 
 ### References
 

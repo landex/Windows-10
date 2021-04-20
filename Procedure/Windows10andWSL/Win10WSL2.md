@@ -110,7 +110,21 @@ Well done, the Java configuration is ok, if the your results are equals that the
 The best thing that happened in 2019 was the Windows Terminal launch... Awesome!!! Install Windows terminal from the MS Store.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/cmd_20210419_224113.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/win_termial_20210420_085218.png" alt="drawing" width="400"/>
+
+
+After installation you can press the shotcurt **WIN+r** and type in Run the letters ***wt*** andd press OK or type **ENTER**.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/run_win_terminal_20210420_085538.png" alt="drawing" width="400"/>
+
+
+This is the first apparence of Windows Terminal, but is possible you configure some things to more customization.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/first_win_terminal_20210420_085731.png" alt="drawing" width="400"/>
+
+
 
 ### References
 
@@ -119,3 +133,9 @@ The best thing that happened in 2019 was the Windows Terminal launch... Awesome!
 :point_right: [VSCode](https://code.visualstudio.com/)
 
 :point_right: [Java Configs](https://www.codejava.net/java-core/how-to-set-environment-variables-for-java-using-command-line)
+
+:point_right: [Windows Terminal Docs](https://docs.microsoft.com/en-us/windows/terminal/)
+
+:point_right: [Windows Terminal Customization](https://alexanderallen.medium.com/windows-terminal-changing-the-default-shell-c4f5987c31)
+
+:point_right: [Windows Terminal Customization More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)

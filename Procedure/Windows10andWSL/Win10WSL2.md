@@ -105,6 +105,12 @@ C:\Users\yourusername>
 Well done, the Java configuration is ok, if the your results are equals that the displayed above.
 
 
+## Windows Terminal
+
+The best thing that happened in 2019 was the Windows Terminal launch... Awesome!!! Install Windows terminal from the MS Store.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/cmd_20210419_224113.png" alt="drawing" width="400"/>
 
 ### References
 

@@ -125,6 +125,9 @@ This is the first apparence of Windows Terminal, but is possible you configure s
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/first_win_terminal_20210420_085731.png" alt="drawing" width="400"/>
 
 
+## The WSL 2
+
+Now we will start the WSL 2 configuration in Windows 10. To create a great dev and automation testing environment for us.
 
 ### References
 

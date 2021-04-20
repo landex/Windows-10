@@ -127,7 +127,44 @@ This is the first apparence of Windows Terminal, but is possible you configure s
 
 ## The WSL 2
 
-Now we will start the WSL 2 configuration in Windows 10. To create a great dev and automation testing environment for us.
+Now we will start the WSL 2 configuration in Windows 10. To create a great dev and automation testing environment for us. If you want know more about WSL 2 click read the offical documentation in Microsoft Site in this [link](https://docs.microsoft.com/en-us/windows/wsl/about)
+
+The first thing to start is open the **PowerShell** with adminstrator level.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/wt_adm_level_20210420_094201.png" alt="drawing" width="400"/>
+
+
+:warning: :warning: No Attention in commands below ok!? :warning: :warning:
+
+After openning the **wt** (***wt is Windows Terminal***) the default shell before any configuration, is the **PowerShell**.
+
+Run command to enamble **Windows Subsystem for Linux** run the command below:
+
+```batch
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+
+Example of command running below.
+
+```batch
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\yourusername> dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.19042.928
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+PS C:\Users\yourusername>
+```
 
 ### References
 
@@ -142,3 +179,5 @@ Now we will start the WSL 2 configuration in Windows 10. To create a great dev a
 :point_right: [Windows Terminal Customization](https://alexanderallen.medium.com/windows-terminal-changing-the-default-shell-c4f5987c31)
 
 :point_right: [Windows Terminal Customization More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
+
+:point_right: [WSL](https://docs.microsoft.com/en-us/windows/wsl/)

@@ -23,7 +23,7 @@ The best IDE and Editor ever! The installation is the classic next, next and fin
 After installation of **Visual Studio Code** we will configure the fonts in this case the **FiraCode**. Open the configuration files of **Visual Studio Code** using the shotcurt ***WIN+r*** access the run, and type the command ***code %AppData%\Code\User\settings.json*** your **VSCode** configuration file will be open.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/vs_code_20210419_221220.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/testing_ligatures_20210419_222951.png" alt="drawing" width="400"/>
 
 
 Insert configuration below, feel free to change some options ok? I not like the minimap due this I changed the value to false.

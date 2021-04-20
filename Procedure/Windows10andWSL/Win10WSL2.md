@@ -6,8 +6,14 @@ This is my configuration to use Windows 10 to run my projects of Testing Automat
 
 The first thing that I installed is the font **Fira Code** is the best font of moment for me, and I like the ligatures. So make download of font in this [link](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip).
 
+After make download the installation, uising your zip tool uncompress the folder and in sub folder **ttf** select to install all. 
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/install_firacoe_20210419_220613.png" alt="drawing" width="100"/>
+
+
 ### References
 
-[FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
+:point_right: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
 
 

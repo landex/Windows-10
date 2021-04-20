@@ -9,7 +9,7 @@ The first thing that I installed is the font **Fira Code** is the best font of m
 After make download the installation, uising your zip tool uncompress the folder and in sub folder **ttf** select to install all. 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/install_firacoe_20210419_220613.png" alt="drawing" width="100"/>
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/install_firacoe_20210419_220613.png" alt="drawing" width="400"/>
 
 
 ### References

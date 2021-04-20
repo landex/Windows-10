@@ -139,7 +139,7 @@ The first thing to start is open the **PowerShell** with adminstrator level.
 
 After openning the **wt** (***wt is Windows Terminal***) the default shell before any configuration, is the **PowerShell**.
 
-Run command to enamble **Windows Subsystem for Linux** run the command below:
+Run command to enable **Windows Subsystem for Linux** run the command below:
 
 ```batch
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -165,6 +165,33 @@ Enabling feature(s)
 The operation completed successfully.
 PS C:\Users\yourusername>
 ```
+
+Now run command to enable the **Virtual Machine feature** run command below:
+```batch
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+Exemple of command running below:
+
+```batch
+PS C:\Users\yourusername> dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.19042.928
+
+Enabling feature(s)
+[==========================100.0%==========================]
+The operation completed successfully.
+PS C:\Users\yourusername>
+```
+
+After the completed this command restart your machine.
+
+Now we need make a download of Linux Kernel Update in this [link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
+
+
 
 ### References
 

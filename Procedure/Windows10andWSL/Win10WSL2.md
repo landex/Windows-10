@@ -135,7 +135,7 @@ The first thing to start is open the **PowerShell** with adminstrator level.
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/wt_adm_level_20210420_094201.png" alt="drawing" width="400"/>
 
 
-:warning: :warning: No Attention in commands below ok!? :warning: :warning:
+:warning: :warning: Now Attention in commands below ok!? :warning: :warning:
 
 After openning the **wt** (***wt is Windows Terminal***) the default shell before any configuration, is the **PowerShell**.
 
@@ -191,6 +191,7 @@ After the completed this command restart your machine.
 
 Now we need make a download of Linux Kernel Update in this [link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
 
+The installation is classic, next next and finishing.
 
 
 ### References

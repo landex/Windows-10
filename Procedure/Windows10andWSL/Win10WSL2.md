@@ -273,6 +273,25 @@ This is the default configuration of **OpenSuse**.
  
  Other things that we set is related to layput of terminal. See below the changes. You can see in references the more information abaout the customization of **Windows Terminal**.
  
+ The other configurations that we will change are related to ***fonts*** and other things.
+ 
+ * Name that will be displayed in top of terminal.
+ ```json
+  "name": "openSUSE",
+ ```
+ 
+ * Path of icon thaat will be displayed.
+  ```json
+  "icon":"C:\\Users\\yourusername\\Documents\\Images\\icon\\opensuse.png",
+ ```
+ 
+ * Type of font, we will use the ***Fira Code*** with this the ***Ligatures*** will be enabled.
+
+```json
+"fontFace": "Fira Code",
+```
+ * 
+ 
 ### References
 
 :point_right: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)

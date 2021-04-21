@@ -199,6 +199,8 @@ Well done, the **WSL2** was installed with sucess, next steps is go to ***Micros
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/openSuse_20210421_150401.png" alt="drawing" width="400"/>
 
 
+## OpenSuse in WSL 2
+
 I selected the **OpenSuse** to use in WSL2, after click in install waiting few minutes.
 
 
@@ -207,7 +209,7 @@ I selected the **OpenSuse** to use in WSL2, after click in install waiting few m
 
 After completed the installation, the **OpenSuse** will be avaiable in Start Menu and in the **Windows Terminal**. Open your **Suse** in Start Menu, after open the installation will be completed.
 
-When you open, this window will be displayed indicates that the installation need procede. See prints below.
+When you open, this window will be displayed indicates that the installation need procede. Follow the prints below to continue the instalation.
 
 
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_one_20210421_151948.png" alt="drawing" width="400"/>
@@ -223,9 +225,54 @@ When you open, this window will be displayed indicates that the installation nee
 
 
 The indication that the installation was done.
-https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_five_20210421_152320.png
 
-Follow the prints below to continue the instalation.
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_five_20210421_152320.png" alt="drawing" width="400"/>
+
+
+Now we can access the Linux sub system using the **Windows Terminal**. 
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/wt_linux_subsystem_20210421_182454.png" alt="drawing" width="400"/>
+
+
+## Customization of Windows Terminal
+
+You see in previous print that the default shell in our **Windows Terminal** is **PowerShell** now we will configure to define our ***Linux*** system was defaul terminal.
+Because the WSL2 we can work with Linux in same time that we using the **Linux**.
+
+Open your ***Windows Terminal*** and type **CONTROL+COMMA** to access the configuration, and select to open ***JSON*** file.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/json_wt_20210421_183629.png" alt="drawing" width="400"/>
+
+
+This is the default configuration of **OpenSuse**.
+
+```json
+   {
+                "guid": "{914a0d3c-9db4-56f8-a8ac-65f4b7ea8b09}",
+                "hidden": false,
+                "name": "openSUSE-Leap-15.2",
+                "source": "Windows.Terminal.Wsl"
+            }
+ ```
+ 
+ The first thing is set the default **guid** of our **Linux** in this line of ***JSON*** file change **guid** of Linux.
+ 
+ **FROM**
+ 
+ ```json
+ "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+ ```
+ 
+ **TO**
+ ```json
+ "defaultProfile": "{914a0d3c-9db4-56f8-a8ac-65f4b7ea8b09}",
+ ```
+ 
+ Other things that we set is related to layput of terminal. See below the changes. You can see in references the more information abaout the customization of **Windows Terminal**.
+ 
 ### References
 
 :point_right: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)

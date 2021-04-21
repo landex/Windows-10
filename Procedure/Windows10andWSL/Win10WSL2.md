@@ -193,7 +193,39 @@ Now we need make a download of Linux Kernel Update in this [link](https://wslsto
 
 The installation is classic, next next and finishing.
 
+Well done, the **WSL2** was installed with sucess, next steps is go to ***Microsoft Store*** and make download of you favorite flavor.
 
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/openSuse_20210421_150401.png" alt="drawing" width="400"/>
+
+
+I selected the **OpenSuse** to use in WSL2, after click in install waiting few minutes.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/openSuse_download_20210421_151430.png" alt="drawing" width="400"/>
+
+
+After completed the installation, the **OpenSuse** will be avaiable in Start Menu and in the **Windows Terminal**. Open your **Suse** in Start Menu, after open the installation will be completed.
+
+When you open, this window will be displayed indicates that the installation need procede. See prints below.
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_one_20210421_151948.png" alt="drawing" width="400"/>
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_two_20210421_152001.png" alt="drawing" width="400"/>
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_three_20210421_152140.png" alt="drawing" width="400"/>
+
+
+<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_four_20210421_152243.png" alt="drawing" width="400"/>
+
+
+The indication that the installation was done.
+https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_five_20210421_152320.png
+
+Follow the prints below to continue the instalation.
 ### References
 
 :point_right: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)

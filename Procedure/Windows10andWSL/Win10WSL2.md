@@ -280,17 +280,28 @@ This is the default configuration of **OpenSuse**.
   "name": "openSUSE",
  ```
  
- * Path of icon thaat will be displayed.
+ * Path of icon that will be displayed.
   ```json
   "icon":"C:\\Users\\yourusername\\Documents\\Images\\icon\\opensuse.png",
  ```
- 
+  
  * Type of font, we will use the ***Fira Code*** with this the ***Ligatures*** will be enabled.
 
 ```json
 "fontFace": "Fira Code",
+``
+
+ * Define the font size.
+```json
+"fontSize": 9,
 ```
- * 
+
+* The cursor color and shape, select your favorite color in ***HEX*** and the shapes example: ***bar***, ***emptyBox***, ***filledBox***, ***underScore***, and ***vintage***.
+```json
+  "cursorColor": "#7ef33a",
+  "cursorShape": "filledBox",
+```
+
  
 ### References
 

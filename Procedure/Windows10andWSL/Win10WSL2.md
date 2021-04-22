@@ -289,7 +289,7 @@ This is the default configuration of **OpenSuse**.
 
 ```json
 "fontFace": "Fira Code",
-``
+```
 
  * Define the font size.
 ```json
@@ -297,11 +297,35 @@ This is the default configuration of **OpenSuse**.
 ```
 
 * The cursor color and shape, select your favorite color in ***HEX*** and the shapes example: ***bar***, ***emptyBox***, ***filledBox***, ***underScore***, and ***vintage***.
+
 ```json
   "cursorColor": "#7ef33a",
   "cursorShape": "filledBox",
 ```
 
+This is my file, to not extend more the configuration, if you can customize more see references below. Thanks.
+
+```json
+    {
+                "guid": "{914a0d3c-9db4-56f8-a8ac-65f4b7ea8b09}",
+                "hidden": false,
+                "name": "openSUSE",
+                "icon": "C:\\YourPath\\image_one.png",
+                "backgroundImage": "C:\\YourPath\\image_two.png",
+                "backgroundImageOpacity" : 0.5,
+                "fontFace": "Fira Code",
+                "fontSize": 9,
+                "cursorColor": "#7ef33a",
+                "cursorShape": "filledBox",
+                "acrylicOpacity": 0.5,
+                "useAcrylic": true,
+                "closeOnExit": true,
+                "background": "#2e3436",
+                "padding": "0, 0, 0, 0",
+                "snapOnInput": true,
+                "source": "Windows.Terminal.Wsl"
+            }
+```
  
 ### References
 
@@ -316,5 +340,7 @@ This is the default configuration of **OpenSuse**.
 :point_right: [Windows Terminal Customization](https://alexanderallen.medium.com/windows-terminal-changing-the-default-shell-c4f5987c31)
 
 :point_right: [Windows Terminal Customization More Tricks](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)
+
+:point_right: [Windows Terminal Backgroud](https://www.thomasmaurer.ch/2019/09/how-to-change-the-windows-terminal-background-image/)
 
 :point_right: [WSL](https://docs.microsoft.com/en-us/windows/wsl/)

@@ -303,7 +303,7 @@ This is the default configuration of **OpenSuse**.
   "cursorShape": "filledBox",
 ```
 
-This is my file, to not extend more the configuration, if you can customize more see references below. Thanks.
+This is my file, to not extend more the configuration, if you can customize more see references below.
 
 ```json
     {
@@ -326,6 +326,12 @@ This is my file, to not extend more the configuration, if you can customize more
                 "source": "Windows.Terminal.Wsl"
             }
 ```
+
+In this point the windows configuration was ended.
+
+## OpenSuse the Linux configuration
+
+Now we will configure the **Linux** terminal of OpenSuse, we will configure the bash and the package and Install the some resource and updates.
  
 ### References
 

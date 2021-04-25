@@ -242,6 +242,14 @@ Now we can access the Linux sub system using the **Windows Terminal**.
 <img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/wt_linux_subsystem_20210421_182454.png" alt="drawing" width="400"/>
 
 
+To verify if you run the **WSL2** run in your **PowerShell** the command *wsl -l -v*, this command return the **NAME** of your distro, **STATE** and the **VERSION** that indicate the **WSL** that is running for your Linux distro.
+
+```batch
+PS C:\Users\yourusername> wsl -l -v
+  NAME                  STATE           VERSION
+* openSUSE-Leap-15.2    Running         2
+PS C:\Users\yourusername>
+```
 ## Customization of Windows Terminal
 
 You see in previous print that the default shell in our **Windows Terminal** is **PowerShell** now we will configure to define our ***Linux*** system was defaul terminal.

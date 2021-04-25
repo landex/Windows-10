@@ -189,6 +189,12 @@ PS C:\Users\yourusername>
 
 After the completed this command restart your machine.
 
+Select the default version of your WSL running command below.
+
+```batch
+wsl --set-default-version 2
+```
+
 Now we need make a download of Linux Kernel Update in this [link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
 
 The installation is classic, next next and finishing.

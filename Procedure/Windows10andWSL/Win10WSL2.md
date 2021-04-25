@@ -352,7 +352,25 @@ See more details about my **Linux** configuration in [OpenSuse in WSL2](https://
 ## Commands and Trick to help you when use WSL2.
 
 Below have a list of commands and tricks that is useful in WSL2. (▀̿Ĺ̯▀̿ ̿)
- 
+
+* Commant to verify distros running
+
+```batch
+PS C:\Users\yourusername> wsl --list --running
+```
+
+* Command to stop the distro exectuion 
+
+```batch
+PS C:\Users\yourusername> wsl --terminate <distro_name>
+```
+
+* Command to shut down the distro exectuion 
+
+```batch
+PS C:\Users\yourusername> wsl --shutdown
+```
+
 ### References
 
 :point_right: [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)

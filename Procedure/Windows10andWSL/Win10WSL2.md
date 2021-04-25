@@ -410,4 +410,6 @@ swapFile=%USERPROFILE%\\AppData\\Local\\Temp\\swap.vhdx
 
 :point_right: [WSL](https://docs.microsoft.com/en-us/windows/wsl/)
 
+:point_right: [WSL config MS](https://docs.microsoft.com/en-us/windows/wsl/wsl-config)
+
 :point_right: [WSLconfig](https://www.bleepingcomputer.com/news/microsoft/windows-10-wsl2-now-allows-you-to-configure-global-options/#:~:text=To%20create%20a%20global%20configuration%20for%20all%20installed%20WSL2%20Linux,wslconfig.)

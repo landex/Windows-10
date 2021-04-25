@@ -334,6 +334,10 @@ In this point the windows configuration was ended.
 Now we will configure the **Linux** terminal of OpenSuse, we will configure the bash and the package and Install the some resource and updates.
 
 See more details about my **Linux** configuration in [OpenSuse in WSL2](https://github.com/landex/Linux/blob/main/OpenSuseWSL2/OpenSuseInWSL2.md)
+
+## Commands and Trick to help you when use WSL2.
+
+Below have a list of commands and tricks that is useful in WSL2. (▀̿Ĺ̯▀̿ ̿)
  
 ### References
 

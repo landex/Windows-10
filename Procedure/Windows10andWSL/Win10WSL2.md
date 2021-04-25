@@ -370,6 +370,27 @@ PS C:\Users\yourusername> wsl --terminate <distro_name>
 ```batch
 PS C:\Users\yourusername> wsl --shutdown
 ```
+## WSL2 config file
+
+Limiting the use of machine resources, by default the WSL2 will use all machine resources avaiable to virtualizarion of you Linux distro, but you can create a ***wslconfig*** file to limit the resources that WSL2 will use.
+
+Before create a file, you need shutdown the wsl running command below.
+
+```batch
+PS C:\Users\yourusername> wsl --shutdown
+```
+
+To create the file you access you **Windows User** directory ***C:\Users\yourusername\.wslconfig***. The file use same structure of **ini** file.
+
+Below have a simple example
+
+```ini
+[wsl2]
+memory=1GB
+processors=2
+swap=1GB
+swapFile=%USERPROFILE%\\AppData\\Local\\Temp\\swap.vhdx
+```
 
 ### References
 

@@ -388,6 +388,7 @@ Below have a simple example
 [wsl2]
 memory=1GB
 processors=2
+localhostForwarding=true
 swap=1GB
 swapFile=%USERPROFILE%\\AppData\\Local\\Temp\\swap.vhdx
 ```

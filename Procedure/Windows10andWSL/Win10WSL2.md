@@ -201,39 +201,36 @@ The installation is classic, next next and finishing.
 
 Well done, the **WSL2** was installed with sucess, next steps is go to ***Microsoft Store*** and make download of you favorite flavor.
 
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/openSuse_20210421_150401.png" alt="drawing" width="400"/>
-
-
-## OpenSuse in WSL 2
-
-I selected the **OpenSuse** to use in WSL2, after click in install waiting few minutes.
+I'm more familiar with Ubuntu, due this I'll select the LTS version. Click in **GET** and waiting the download.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/openSuse_download_20210421_151430.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/ubuntu_lts_20210426_215703.png" alt="drawing" width="400"/>
 
 
-After completed the installation, the **OpenSuse** will be avaiable in Start Menu and in the **Windows Terminal**. Open your **Suse** in Start Menu, after open the installation will be completed.
+After completed the installation, the **Ubuntu** will be avaiable in Start Menu and in the **Windows Terminal**. Open your **Ubuntu** in Start Menu, after open the installation will be completed and some options will be displayed to complete the installation see the images below.
 
-When you open, this window will be displayed indicates that the installation need procede. Follow the prints below to continue the instalation.
-
-
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_one_20210421_151948.png" alt="drawing" width="400"/>
+* Click in **Launch**.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_two_20210421_152001.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/launch_lts_20210426_220254.png" alt="drawing" width="400"/>
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_three_20210421_152140.png" alt="drawing" width="400"/>
+* Wating the installation conclude.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_four_20210421_152243.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/waiting_installing_20210426_220337.png" alt="drawing" width="400"/>
 
 
-The indication that the installation was done.
+* Define an ***username*** and ***password***.
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/continue_installation_five_20210421_152320.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/define_user_name_20210426_220404.png" alt="drawing" width="400"/>
+
+
+* Now the installation was done and is time to start the ***Ubuntu*** configuration.
+
+
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/installation_done_20210426_220518.png" alt="drawing" width="400"/>
 
 
 Now we can access the Linux sub system using the **Windows Terminal**. 

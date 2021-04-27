@@ -288,14 +288,22 @@ This is the default configuration of **OpenSuse**.
  The other configurations that we will change are related to ***fonts*** and other things.
  
  * Name that will be displayed in top of terminal.
+ 
  ```json
   "name": "Ubuntu",
  ```
  
  * Path of icon that will be displayed.
+ 
   ```json
   "icon":"C:\\Users\\yourusername\\Documents\\Images\\icon\\Ubuntu.png",
  ```
+  
+ * Starting Directory indicate the directory that will be open when you open the Windows Terminal.
+
+```json
+"startingDirectory": "//wsl$/Ubuntu-20.04/home/yourlinuxusername",
+```
   
  * Type of font, we will use the ***Fira Code*** with this the ***Ligatures*** will be enabled.
 

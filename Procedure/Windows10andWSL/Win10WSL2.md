@@ -381,15 +381,13 @@ PS C:\Users\yourusername> wsl --shutdown
 
 To create the file you access you **Windows User** directory ***C:\Users\yourusername\.wslconfig***. The file use same structure of **ini** file.
 
-Below have a simple example
+Below have a simple example, to limit the resources.
 
 ```ini
 [wsl2]
-memory=1GB
+memory=2GB
 processors=2
 localhostForwarding=true
-swap=1GB
-swapFile=%USERPROFILE%\\AppData\\Local\\Temp\\swap.vhdx
 ```
 
 ### References

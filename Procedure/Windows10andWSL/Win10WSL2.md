@@ -236,7 +236,7 @@ After completed the installation, the **Ubuntu** will be avaiable in Start Menu 
 Now we can access the Linux sub system using the **Windows Terminal**. 
 
 
-<img align="center" src="https://github.com/landex/Windows-10/blob/main/Procedure/Windows10andWSL/Images/wt_linux_subsystem_20210421_182454.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/ubuntu_in_terminal_20210426_221358.png" alt="drawing" width="400"/>
 
 
 To verify if you run the **WSL2** run in your **PowerShell** the command *wsl -l -v*, this command return the **NAME** of your distro, **STATE** and the **VERSION** that indicate the **WSL** that is running for your Linux distro.
@@ -244,9 +244,10 @@ To verify if you run the **WSL2** run in your **PowerShell** the command *wsl -l
 ```batch
 PS C:\Users\yourusername> wsl -l -v
   NAME                  STATE           VERSION
-* openSUSE-Leap-15.2    Running         2
+* Ubuntu-20.04          Running         2
 PS C:\Users\yourusername>
 ```
+
 ## Customization of Windows Terminal
 
 You see in previous print that the default shell in our **Windows Terminal** is **PowerShell** now we will configure to define our ***Linux*** system was defaul terminal.
@@ -264,7 +265,7 @@ This is the default configuration of **OpenSuse**.
    {
                 "guid": "{914a0d3c-9db4-56f8-a8ac-65f4b7ea8b09}",
                 "hidden": false,
-                "name": "openSUSE-Leap-15.2",
+                "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl"
             }
  ```
@@ -288,12 +289,12 @@ This is the default configuration of **OpenSuse**.
  
  * Name that will be displayed in top of terminal.
  ```json
-  "name": "openSUSE",
+  "name": "Ubuntu",
  ```
  
  * Path of icon that will be displayed.
   ```json
-  "icon":"C:\\Users\\yourusername\\Documents\\Images\\icon\\opensuse.png",
+  "icon":"C:\\Users\\yourusername\\Documents\\Images\\icon\\Ubuntu.png",
  ```
   
  * Type of font, we will use the ***Fira Code*** with this the ***Ligatures*** will be enabled.
@@ -340,11 +341,11 @@ This is my file, to not extend more the configuration, if you can customize more
 
 In this point the windows configuration was ended.
 
-## OpenSuse the Linux configuration
+## Ubuntu-20.04 LTS the Linux configuration
 
-Now we will configure the **Linux** terminal of OpenSuse, we will configure the bash and the package and Install the some resource and updates.
+Now we will configure the **Linux** terminal of Ubuntu-20.04 LTS, we will configure the bash and the package and Install the some resource and updates.
 
-See more details about my **Linux** configuration in [OpenSuse in WSL2](https://github.com/landex/Linux/blob/main/OpenSuseWSL2/OpenSuseInWSL2.md)
+See more details about my **Linux** configuration in [Ubuntu-20.04 LTS in WSL2](https://github.com/landex/Linux/blob/main/UbuntuWSL/UbuntuWSLConfig.md).
 
 ## Commands and Trick to help you when use WSL2.
 
@@ -367,6 +368,7 @@ PS C:\Users\yourusername> wsl --terminate <distro_name>
 ```batch
 PS C:\Users\yourusername> wsl --shutdown
 ```
+
 ## WSL2 config file
 
 Limiting the use of machine resources, by default the WSL2 will use all machine resources avaiable to virtualizarion of you Linux distro, but you can create a ***wslconfig*** file to limit the resources that WSL2 will use.

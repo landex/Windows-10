@@ -347,7 +347,38 @@ This is my file, to not extend more the configuration, if you can customize more
             }
 ```
 
-In this point the windows configuration was ended.
+In this point the windows configuration was ended to use ***New Windows Terminal***.
+
+## HyperJs
+
+
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/hyper_20210526_131743.png" alt="drawing" width="400"/>
+
+
+Maybe you can another terminal to use in your windows, you can use the Hyper JS to use in WSL2. The installation is typically run NEXT and NEXT and Finish.
+
+After completed the installation we will configure ***HyperJS*** to use ***WSL2***.
+
+* Configure the WSL access in ***HyperJS*** by default
+
+Add the configuration below you when you open the ***HyperJS*** the same will be open ***WSL System*** installed in your computer.
+
+The configuration file stay in *C:\Users\your_username\AppData\Roaming\Hyper*, the file ***.hyper.js*** you will edit.
+
+You change
+
+* FROM
+
+```JavaScript
+shell: '',
+```
+
+* TO
+
+```JavaScript
+    shell: 'C:\\Windows\\System32\\wsl.exe',
+    shellArgs: [~],
+```JavaScript
 
 ## Ubuntu-20.04 LTS the Linux configuration
 
@@ -419,3 +450,6 @@ localhostForwarding=true
 :point_right: [WSL config MS](https://docs.microsoft.com/en-us/windows/wsl/wsl-config)
 
 :point_right: [WSLconfig](https://www.bleepingcomputer.com/news/microsoft/windows-10-wsl2-now-allows-you-to-configure-global-options/#:~:text=To%20create%20a%20global%20configuration%20for%20all%20installed%20WSL2%20Linux,wslconfig.)
+
+:point_right: [HyperJS + WSL](https://gist.github.com/leodutra/a6cebe11db5414cdaedc6e75ad194a00)
+

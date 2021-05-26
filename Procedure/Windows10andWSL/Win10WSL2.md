@@ -365,20 +365,27 @@ Add the configuration below you when you open the ***HyperJS*** the same will be
 
 The configuration file stay in *C:\Users\your_username\AppData\Roaming\Hyper*, the file ***.hyper.js*** you will edit.
 
-You change
+You change these paramters below.
 
-* FROM
+* FROM:
 
 ```JavaScript
 shell: '',
+shellArgs: ['--login'],
 ```
 
-* TO
+* TO:
 
 ```JavaScript
     shell: 'C:\\Windows\\System32\\wsl.exe',
-    shellArgs: [~],
-```JavaScript
+    shellArgs: ['~'],
+```
+
+Well done now when you open ***HyperJS*** terminal, will open the your WLS system installed.
+
+* Enable Fira Code font and Ligatures
+
+In ***Hyper
 
 ## Ubuntu-20.04 LTS the Linux configuration
 

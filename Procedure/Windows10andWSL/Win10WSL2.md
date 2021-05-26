@@ -352,7 +352,7 @@ In this point the windows configuration was ended to use ***New Windows Terminal
 ## HyperJs
 
 
-<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/hyper_20210526_131743.png" alt="drawing" width="400"/>
+<img align="center" src="https://github.com/landex/Linux/blob/main/UbuntuWSL/images/hyper_20210526_131743.png" alt="drawing" width="100"/>
 
 
 Maybe you can another terminal to use in your windows, you can use the Hyper JS to use in WSL2. The installation is typically run NEXT and NEXT and Finish.
@@ -382,10 +382,6 @@ shellArgs: ['--login'],
 ```
 
 Well done now when you open ***HyperJS*** terminal, will open the your WLS system installed.
-
-* Enable Fira Code font and Ligatures
-
-In ***Hyper
 
 ## Ubuntu-20.04 LTS the Linux configuration
 

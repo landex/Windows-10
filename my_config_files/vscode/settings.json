@@ -7,12 +7,12 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
-    "editor.fontWeight": null,
-    "editor.codeActionsOnSave": null,
+    "editor.fontWeight": "normal",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
-            "icon": "terminal-powershell"
+            "icon": "terminal-powershell",
+            "path": "C:\\DevTools\\pws\\7\\pwsh.exe"
         },
         "Command Prompt": {
             "path": [
@@ -25,10 +25,17 @@
         "Git Bash": {
             "source": "Git Bash"
         },
-        "PowerShell7": {
-            "path": "C:\\DevTools\\PowerShell\\7\\pwsh.exe"
-        }
+        "pwsh": {
+            "path": "C:\\DevTools\\pws\\7\\pwsh.exe"
+        },
+      
+        
     },
+    
+    "terminal.integrated.defaultProfile.windows": "pwsh",
+    "terminal.integrated.automationShell.windows": "C:\\DevTools\\pws\\7\\pwsh.exe",
+    "terminal.external.windowsExec": "C:\\DevTools\\pws\\7\\pwsh.exe",
+    
     "[jsonc]": {
     
         "editor.quickSuggestions": {
@@ -36,9 +43,10 @@
         },
         "editor.suggest.insertMode": "replace"
     },
-    "terminal.integrated.defaultProfile.windows": "PowerShell7",
+    
     "[git-rebase]": {
     
         "workbench.editor.restoreViewState": false
-    }
+    },
+    
 }

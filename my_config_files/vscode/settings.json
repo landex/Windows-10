@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.fontWeight": 10,
     "editor.minimap.enabled": false,
@@ -10,9 +10,9 @@
     "editor.fontWeight": "normal",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
-            "source": "PowerShell",
+            "source": "pwsh",
             "icon": "terminal-powershell",
-            "path": "C:\\DevTools\\pws\\7\\pwsh.exe"
+            "path": "C:\\DevTools\\pwsh\\7\\pwsh.exe"
         },
         "Command Prompt": {
             "path": [
@@ -26,15 +26,15 @@
             "source": "Git Bash"
         },
         "pwsh": {
-            "path": "C:\\DevTools\\pws\\7\\pwsh.exe"
+            "path": "C:\\DevTools\\pwsh\\7\\pwsh.exe"
         },
       
         
     },
     
     "terminal.integrated.defaultProfile.windows": "pwsh",
-    "terminal.integrated.automationShell.windows": "C:\\DevTools\\pws\\7\\pwsh.exe",
-    "terminal.external.windowsExec": "C:\\DevTools\\pws\\7\\pwsh.exe",
+    "terminal.integrated.automationShell.windows": "C:\\DevTools\\pwsh\\7\\pwsh.exe",
+    "terminal.external.windowsExec": "C:\\\\DevTools\\\\pwsh\\\\7\\\\pwsh.exe",
     
     "[jsonc]": {
     
@@ -48,5 +48,6 @@
     
         "workbench.editor.restoreViewState": false
     },
-    
+  
+      
 }

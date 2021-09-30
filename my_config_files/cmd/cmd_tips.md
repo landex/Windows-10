@@ -1,4 +1,4 @@
-# Formatando via linha dde comando
+# Formatando via linha de comando
 
 Nestes passos abaixo vamos mostrar como formatar usando a linha de comando.
 

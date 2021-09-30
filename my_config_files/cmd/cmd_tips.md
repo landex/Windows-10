@@ -15,3 +15,30 @@ diskpart
 ```batch
 list disk
 ```
+
+### Selecionar o disco a ser formatado
+
+```batch
+select disk <num_disk>
+```
+
+### Limpando os dados
+```batch
+clean 
+``` 
+
+### Criando partição
+```batch
+create partition primary
+```
+
+### Formatação rápida
+```batch
+format fs=ntfs quick
+```
+OBS: fs pode ser *fat32*, *exfat*, *fat*
+
+### Formatando de forma lenta(normal)
+```batch
+format fs=nfs
+```

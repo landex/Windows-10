@@ -11,7 +11,7 @@ fsutil file createnew D:\path\filename.txt 2048
 
 Dicas 
 
-
+|MB/GB/TB | Bytes|
 |-------|---------------------|
 | 1MB   | 1048576 bytes       |
 | 100MB | 1048576 bytes       |

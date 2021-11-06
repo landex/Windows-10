@@ -10,9 +10,8 @@
     "editor.fontWeight": "normal",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
-            "source": "pwsh",
-            "icon": "terminal-powershell",
-            "path": "C:\\DevTools\\pwsh\\7\\pwsh.exe"
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
         },
         "Command Prompt": {
             "path": [
@@ -26,28 +25,11 @@
             "source": "Git Bash"
         },
         "pwsh": {
-            "path": "C:\\DevTools\\pwsh\\7\\pwsh.exe"
-        },
-      
-        
+            "path": "C:\\Apps\\pwsh\\7\\pwsh.exe",
+            "args": []
+        }
     },
-    
-    "terminal.integrated.defaultProfile.windows": "pwsh",
-    "terminal.integrated.automationShell.windows": "C:\\DevTools\\pwsh\\7\\pwsh.exe",
-    "terminal.external.windowsExec": "C:\\\\DevTools\\\\pwsh\\\\7\\\\pwsh.exe",
-    
-    "[jsonc]": {
-    
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace"
-    },
-    
-    "[git-rebase]": {
-    
-        "workbench.editor.restoreViewState": false
-    },
+    "terminal.integrated.defaultProfile.windows": "pwsh"
   
       
 }

@@ -9,7 +9,7 @@ Function prompt {
     Write-Host "LandiLeite 📁" -NoNewline -ForegroundColor Blue
     Write-Host "$CmdPromptCurrentFolder" -NoNewline -ForegroundColor Yellow
     Write-Host
-    return "⚡ "
+    return "🔷 "
 } # End of my PromptConfig
 
 # Others Function
